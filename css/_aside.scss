@@ -1,0 +1,104 @@
+@media all and (min-width: 1920px){
+    .titres_aside {
+		margin: 60px 0;
+	}
+	.contact {
+		font-size: 20px;
+	}
+		.contact_img {
+			margin: 90px 0 0 110px;
+			width: 350px; height: 350px;
+			border: 7px #2874A6 solid;
+			border-radius: 50%;
+		}
+		.contact_info ,.contact_titre_info {
+			font-weight: bold;
+			font-weight: 500;
+		}
+		.contact_info {
+			margin: 12px 0 24px 60px;
+		}
+	.contact_titre_info , .description_bio{
+		margin: 30px 0 -11.3906px 60px;
+	}
+	.description {
+		margin-bottom: 580px;
+	}
+		.description_bio{			
+			margin: 30px 60px 0 60px;
+			font-size: 25px;
+		}
+		.description_loisir > .logo > i {
+			padding-left: 4%;
+			margin-left: 6.4%;
+			margin-top: -9px;
+			margin-bottom: 16%;
+			color: #2874A6;
+		}
+	.logo {
+		margin: 0 30px;
+	}
+}
+@media screen and (min-width: 1240px) and (max-width: 1920px) {
+    .titres_aside {
+        margin: 50px 0;
+    }
+    .contact_titre_info, .contact_info {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .contact_titre_info {
+        margin: 30px 0 0 65px;
+    }
+    .contact_info {
+        margin: 0 0 30px 65px;
+    }
+    .contact_img {
+        width: 280px;height: 280px;
+        margin: 90px 0 0 90px;
+        border: #2874A6 5px solid;
+        border-radius: 50%;
+    }
+    .description_bio {
+        margin: 0 65px 480px;
+    }
+    .description_loisir > .logo{
+        margin: 0;
+    }
+        .logo > i {
+            padding: 0 0 0 10%;
+            font-size: 60px;
+        }
+}
+@media screen and (min-width: 1024px) and (max-width: 1240px) {
+    .titres_aside {  
+        margin: 50px 0;
+    }
+    .contact_titre_info, .contact_info {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .contact_titre_info {
+        margin: 30px 0 0 65px;
+    }
+    .contact_info {
+        margin: 0 0 30px 65px;
+    }
+    .contact_img {
+
+        width: 280px;height: 280px;
+        margin: 90px 0 0 90px;
+        border: #2874A6 5px solid;
+        border-radius: 50%;
+    }
+    .description_bio {
+        margin: 0 65px 480px;
+    }
+    .description_loisir > .logo{
+        margin: 0;
+    }
+        .logo > i {
+            padding: 0 0 0 10%;
+            font-size: 60px;
+        }
+}

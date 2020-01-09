@@ -1,71 +1,335 @@
+@media all and (min-width: 1920px) {
+  .titres_aside {
+    margin: 60px 0; }
+
+  .contact {
+    font-size: 20px; }
+
+  .contact_img {
+    margin: 90px 0 0 110px;
+    width: 350px;
+    height: 350px;
+    border: 7px #2874A6 solid;
+    border-radius: 50%; }
+
+  .contact_info, .contact_titre_info {
+    font-weight: bold;
+    font-weight: 500; }
+
+  .contact_info {
+    margin: 12px 0 24px 60px; }
+
+  .contact_titre_info, .description_bio {
+    margin: 30px 0 -11.3906px 60px; }
+
+  .description {
+    margin-bottom: 580px; }
+
+  .description_bio {
+    margin: 30px 60px 0 60px;
+    font-size: 25px; }
+
+  .description_loisir > .logo > i {
+    padding-left: 4%;
+    margin-left: 6.4%;
+    margin-top: -9px;
+    margin-bottom: 16%;
+    color: #2874A6; }
+
+  .logo {
+    margin: 0 30px; } }
+@media screen and (min-width: 1240px) and (max-width: 1920px) {
+  .titres_aside {
+    margin: 50px 0; }
+
+  .contact_titre_info, .contact_info {
+    font-size: 23px;
+    font-weight: bold; }
+
+  .contact_titre_info {
+    margin: 30px 0 0 65px; }
+
+  .contact_info {
+    margin: 0 0 30px 65px; }
+
+  .contact_img {
+    width: 280px;
+    height: 280px;
+    margin: 90px 0 0 90px;
+    border: #2874A6 5px solid;
+    border-radius: 50%; }
+
+  .description_bio {
+    margin: 0 65px 480px; }
+
+  .description_loisir > .logo {
+    margin: 0; }
+
+  .logo > i {
+    padding: 0 0 0 10%;
+    font-size: 60px; } }
+@media screen and (min-width: 1024px) and (max-width: 1240px) {
+  .titres_aside {
+    margin: 50px 0; }
+
+  .contact_titre_info, .contact_info {
+    font-size: 23px;
+    font-weight: bold; }
+
+  .contact_titre_info {
+    margin: 30px 0 0 65px; }
+
+  .contact_info {
+    margin: 0 0 30px 65px; }
+
+  .contact_img {
+    width: 280px;
+    height: 280px;
+    margin: 90px 0 0 90px;
+    border: #2874A6 5px solid;
+    border-radius: 50%; }
+
+  .description_bio {
+    margin: 0 65px 480px; }
+
+  .description_loisir > .logo {
+    margin: 0; }
+
+  .logo > i {
+    padding: 0 0 0 10%;
+    font-size: 60px; } }
 body {
-	font-size: 1.2em;
-	font-family: 'Courier Prime', monospace;
-}
+  margin: 0;
+  font-size: 1.2em;
+  font-family: 'Courier Prime', monospace; }
 
 aside {
-	
-	background-color: #AED6F1;
-}
+  background-color: #AED6F1; }
 
 a {
-	color: black;
-	text-decoration: none;
-}
+  color: black;
+  text-decoration: none; }
 
 a:hover {
-	color: white;
-}
+  color: white; }
 
 h1 {
-	text-transform: uppercase;
-	margin-bottom: -4%;
-}
+  text-transform: uppercase;
+  margin-bottom: -4%; }
 
 h2 {
-	text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .contact_img {
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	transform: rotate(-90deg);	
-}
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+
 .contact_telephone {
-	letter-spacing: -3.2px;
-}
-.contact_titre_info{
-	font-weight: normal;
-}
+  letter-spacing: -3.2px; }
 
-.titres_aside{
-	text-transform: uppercase;
-	text-align: center;
-	color: #AED6F1;
-	background-color: #2874A6;
-	padding-top: 8px;
-}
+.contact_titre_info {
+  font-weight: normal; }
 
-.societe , .poste {
-	text-transform: uppercase;
-}
+.titres_aside {
+  text-transform: uppercase;
+  text-align: center;
+  color: #AED6F1;
+  background-color: #2874A6;
+  padding-top: 8px; }
+
+.societe, .poste {
+  text-transform: uppercase; }
 
 .formation {
-	
-	justify-content: space-between ;
-}
+  justify-content: space-between; }
 
-.fa-graduation-cap , .fa-suitcase , .fa-pencil-alt , .fa-dot-circle, .fa-circle, .en_tete_prenom {
-	color:#2874A6;
-}
+.fa-graduation-cap, .fa-suitcase, .fa-pencil-alt, .fa-dot-circle, .fa-circle, .en_tete_prenom {
+  color: #2874A6; }
 
 .en_tete_sous_titre {
-	font-weight: bold;
-	font-size: 1.6em;
-}
+  font-weight: bold;
+  font-size: 1.6em; }
 
 .underline {
-	text-decoration: underline #2874A6;
-}
+  text-decoration: underline #2874A6; }
+
+@media (min-width: 600px) {
+  body {
+    margin: 0%;
+    border: 1.78px rgba(0, 0, 0, 0.5) solid;
+    display: flex; }
+
+  aside {
+    width: 30%; }
+
+  .right_side {
+    width: 70%; } }
+@media all and (min-width: 1920px) {
+  h2 {
+    font-size: 55px; }
+
+  p {
+    font-size: 25px; }
+
+  .right_side {
+    margin: 0 0 0 120px; }
+
+  .en_tete_titre {
+    margin: 150px 0 -57px 0;
+    font-size: 8.5rem;
+    text-transform: uppercase; }
+
+  .en_tete_sous_titre {
+    margin-bottom: 160px;
+    font-size: 52px; }
+
+  .titre_section {
+    text-transform: uppercase;
+    margin: 0px 0 15px 0; }
+
+  .bordure_titres_section {
+    border-bottom: 3px solid #2874A6; }
+
+  .block {
+    margin: 78px 0; }
+
+  .formation {
+    display: flex;
+    justify-content: space-between; }
+
+  .formation_date {
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin: 0px; }
+
+  .fonction {
+    margin: 20px 0 75px 0; }
+
+  .fonction_bis {
+    margin: 20px 0 0; }
+
+  .fonction_exp {
+    margin: 20px 0 -5px; }
+
+  .ecole {
+    padding-right: 1.2%; }
+
+  .societe {
+    margin: 0 0 20px;
+    font-size: 1.8em;
+    text-transform: uppercase; }
+
+  .poste {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bolder; }
+
+  .block_recommandation {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 20px; }
+
+  .recommandation_sous_titre {
+    font-size: 29px;
+    margin: 0 0 22px; }
+
+  .recommandation_info {
+    margin: -5px 0 16px; }
+
+  .info_bold {
+    font-weight: bold; }
+
+  .recommandation_info_mail {
+    margin: -5px 0 0; }
+
+  .fa-circle {
+    width: 35.84px; } }
+@media screen and (min-width: 1240px) and (max-width: 1920px) {
+  h2 {
+    font-size: 40px; }
+
+  p {
+    font-size: 23px; }
+
+  .right_side {
+    margin: 0 0 0 100px; }
+
+  .en_tete_titre {
+    margin: 125px 0 -40px 0;
+    font-size: 90px;
+    text-transform: uppercase; }
+
+  .en_tete_sous_titre {
+    margin-bottom: 170px;
+    font-size: 40px; }
+
+  .titre_section {
+    text-transform: uppercase;
+    margin: 0px 0 15px 0; }
+
+  .bordure_titres_section {
+    border-bottom: 3px solid #2874A6; }
+
+  .societe {
+    margin: 0 0 20px;
+    font-size: 30px;
+    text-transform: uppercase; }
+
+  .poste {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bolder; }
+
+  .fonction {
+    margin: 20px 0 75px 0;
+    font-size: 23px; }
+
+  .fonction_bis {
+    margin: 20px 0 0; }
+
+  .fonction_exp {
+    margin: 20px 0 -5px; }
+
+  .block {
+    margin: 78px 0; }
+
+  .block_recommandation {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 20px; }
+
+  .formation {
+    display: flex;
+    justify-content: space-between; }
+
+  .formation_date {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px; }
+
+  .visible_max_screen {
+    display: none; }
+
+  .recommandation_info {
+    margin: -5px 0 18px; }
+
+  .info_bold {
+    font-weight: bold; }
+
+  .recommandation_info_mail {
+    margin: -5px 0 0; }
+
+  .fa-circle, .fa-dot-circle {
+    width: 25.84px; }
+
+  .ecole {
+    margin-left: -5px; } }
+
+/*# sourceMappingURL=style.css.map */
