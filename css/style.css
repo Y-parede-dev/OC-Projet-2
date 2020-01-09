@@ -1,0 +1,71 @@
+body {
+	font-size: 1.2em;
+	font-family: 'Courier Prime', monospace;
+}
+
+aside {
+	
+	background-color: #AED6F1;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-bottom: -4%;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.contact_img {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);	
+}
+.contact_telephone {
+	letter-spacing: -3.2px;
+}
+.contact_titre_info{
+	font-weight: normal;
+}
+
+.titres_aside{
+	text-transform: uppercase;
+	text-align: center;
+	color: #AED6F1;
+	background-color: #2874A6;
+	padding-top: 8px;
+}
+
+.societe , .poste {
+	text-transform: uppercase;
+}
+
+.formation {
+	
+	justify-content: space-between ;
+}
+
+.fa-graduation-cap , .fa-suitcase , .fa-pencil-alt , .fa-dot-circle, .fa-circle, .en_tete_prenom {
+	color:#2874A6;
+}
+
+.en_tete_sous_titre {
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.underline {
+	text-decoration: underline #2874A6;
+}

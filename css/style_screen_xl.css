@@ -1,0 +1,127 @@
+@media screen and (min-width:1600px) and (max-width:4200px) {
+
+    body {
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
+    aside {
+        width:33%;
+    }
+
+    h1 {
+        font-size: 135px;
+        margin: 180px 0 0;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 28px;
+    }
+    .titres_aside {
+        
+        margin: 65px 0;
+    }
+    
+    .contact_titre_info, .contact_info {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .contact_titre_info {
+        margin: 30px 0 0 70px;
+    }
+    .contact_info {
+        margin: 0 0 30px 70px;
+    }
+    .contact_img {
+
+        width: 320px; height: 320px;
+        margin: 120px 0 0 27%;
+        border: #2874A6 5px solid;
+        border-radius: 50%;
+    }
+    .description_bio {
+        margin: 0 75px 800px;
+    }
+    .description_loisir {
+        margin: 0 0 65px;
+    }
+    .description_loisir > .logo{
+        margin: 0 10%;
+    }
+        .logo > i {
+            padding: 0 0 0 10%;
+        }
+    .right_side {
+        width: 66%;
+        margin: 0 0 0 100px;
+    }
+        .en_tete_sous_titre {
+            font-size: 55px;
+            margin: -5px 0 230px;
+        }
+        .titre_section {
+            margin: 45px 0  20px;
+        }
+        .bordure_titres_section {
+            border-bottom: #2874A6 4px solid ;
+            margin: 0 80px 0 0;
+        }
+        .block {
+            margin: 80px 0;
+            
+        }
+            .formation {
+                display: flex;
+                justify-content: space-between;
+                margin: 80px 0;
+
+            }
+                .formation_date {
+                    margin: 0;
+                    width: 435px;
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+                .ecole {
+                    width: 60%;
+                    margin: 0 100px 0 0;
+                }   
+                    .societe {
+                        font-weight: bold;
+                        font-size: 36px;
+                        margin: 0;
+                    }
+                    .poste {
+                        margin: 18px 0;
+                        font-weight: bold;
+                    }
+                    .fonction {
+                        margin: 0;
+                    }
+                    .fonction_bis {
+                        margin: 0 0 30px;
+                    }
+        .block_recommandation {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0 0;
+        }
+            .recommandations_boss {
+                width: 550px;
+            }
+                .recommandation_sous_titre {
+                    font-size: 30px;
+                    margin: 30px 0 20px;
+                }
+                .recommandation_info {
+                    margin: 10px 0;
+                }
+                .recommandation_info_mail {
+                    margin: 10px 0 0;
+                }
+                .info_bold {
+                    font-weight: bold;
+                }
+}
