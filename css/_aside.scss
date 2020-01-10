@@ -34,7 +34,6 @@
                 font-size: 60px;
             }
 }
-
 @media screen and (min-width: 1660px) and (max-width: 1870px) {
     aside {
         width:40%;
@@ -70,7 +69,7 @@
                 font-size: 60px;
             }
 }
-@media screen and (min-width: 800px) and (max-width: 1660px) {
+@media screen and (min-width: 1450px) and (max-width: 1660px) {
     aside {
         width:45%;
     }
@@ -86,8 +85,8 @@
         margin: 0 0 20px 55px;
     }
     .contact_img {
-        width: 250px;height: 250px;
-        margin: 12% 0 0 14.6%;
+        width: 235px;height: 235px;
+        margin: 12% 0 0 21%;
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
@@ -105,9 +104,9 @@
                 font-size: 60px;
             }
 }
-@media screen and (min-width: 1660px) and (max-width: 800px) {
+@media screen and (min-width: 1230px) and (max-width: 1450px) {
     aside {
-        width:40%;
+        width:55%;
     }
     .titres_aside {
         margin: 50px 0;
@@ -121,8 +120,42 @@
         margin: 0 0 20px 55px;
     }
     .contact_img {
-        width: 270px;height: 270px;
+        width: 235px;height: 235px;
         margin: 12% 0 0 17%;
+        border: #2874A6 5px solid;
+        border-radius: 50%;
+    }
+    .description_bio {
+        margin: 0 55px 480px;
+    }
+    .description_loisir {
+        margin: 0 0 50px;
+    }
+        .description_loisir > .logo{
+            margin: 0;
+        }
+            .logo > i {
+                padding: 0 0 0 11.2%;
+                font-size: 60px;
+            }
+}
+@media screen and (min-width: 800px) and (max-width: 1230px) {
+    aside {
+        width:65%;
+    }
+    .titres_aside {
+        margin: 50px 0;
+    }
+    .contact_titre_info {
+        font-size: 20px;
+        margin: 0px 0 0 55px;
+    }
+    .contact_info {
+        font-size: 20px;
+        margin: 0 0 20px 55px;
+    }
+    .contact_img {
+        margin: 12% 0 0 24%;
         border: #2874A6 5px solid;
         border-radius: 50%;
     }

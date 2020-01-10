@@ -27,7 +27,6 @@
 			}
 				.formation_date{
 					font-weight: bolder;
-					font-size: 20px;
 					margin: 0px 1% 0 0;
 					width: 30%;
 				}
@@ -89,7 +88,7 @@
 		font-size: 20px;
 	}
     .right_side {	
-        margin: 0 80px 0 100px;
+        margin: 0 70px 0 80px;
         width:100%;
 	}
 		.titre_section {
@@ -109,7 +108,6 @@
 			}
 				.formation_date{
 					font-weight: bolder;
-					font-size: 20px;
 					margin: 0px 1% 0 0;
 					width: 30%;
 				}
@@ -139,7 +137,7 @@
 	.block_recommandation {
 		display: flex;
 		justify-content: space-between;
-        margin: 35px 20% 20px 0;
+        margin: 35px 17% 20px 0;
         font-size: 1.4em;
 	}
 		.recommandation_sous_titre {
@@ -162,7 +160,7 @@
 		display: none;
 	}
 }
-@media screen and (min-width:800px) and (max-width: 1660px) {  
+@media screen and (min-width:1450px) and (max-width: 1660px) {  
 	h2 {
 		font-size: 40px;
 	}
@@ -170,7 +168,7 @@
 		font-size: 20px;
 	}
     .right_side {	
-        margin: 0 80px 0 100px;
+        margin: 0 70px 0 80px;
         width:100%;
 	}
 		.titre_section {
@@ -190,13 +188,12 @@
 			}
 				.formation_date{
 					font-weight: bolder;
-					font-size: 20px;
 					margin: 0px 1% 0 0;
 					width: 30%;
 				}
 				.ecole {
 					margin-left: -5px;
-					width: 70%;
+					width: 60%;
 				}
 					.societe {
 						margin:0 0 10px ;
@@ -220,7 +217,7 @@
 	.block_recommandation {
 		display: flex;
 		justify-content: space-between;
-        margin: 35px 20% 20px 0;
+        margin: 35px 16% 20px 0;
         font-size: 1.4em;
 	}
 		.recommandation_sous_titre {
@@ -243,15 +240,15 @@
 		display: none;
 	}
 }
-@media screen and (min-width:1660px) and (max-width: 800px) {  
+@media screen and (min-width:1230px) and (max-width: 1450px) {  
 	h2 {
-		font-size: 40px;
+		font-size: 35px;
 	}
 	p{
 		font-size: 20px;
 	}
     .right_side {	
-        margin: 0 80px 0 100px;
+        margin: 0 70px 0 80px;
         width:100%;
 	}
 		.titre_section {
@@ -271,13 +268,12 @@
 			}
 				.formation_date{
 					font-weight: bolder;
-					font-size: 20px;
 					margin: 0px 1% 0 0;
 					width: 30%;
 				}
 				.ecole {
 					margin-left: -5px;
-					width: 70%;
+					width: 60%;
 				}
 					.societe {
 						margin:0 0 10px ;
@@ -301,7 +297,88 @@
 	.block_recommandation {
 		display: flex;
 		justify-content: space-between;
-        margin: 35px 20% 20px 0;
+        margin: 35px 0 20px 0;
+        font-size: 1.4em;
+	}
+	
+	.recommandation_sous_titre {
+		margin: 12px 0 ;
+	}	
+	.recommandation_info {
+		margin: 6px 0;
+	}
+		.info_bold {
+			font-weight: bold;
+			font-size: 22px;
+		}
+		.recommandation_info_mail {
+			margin: -5px 0 0;
+		}
+	.fa-circle, .fa-dot-circle {
+		width: 25.84px ;
+	}
+	.visible_max_screen {
+		display: none;
+	}
+}
+@media screen and (min-width:800px) and (max-width: 1230px) {  
+	h2 {
+		font-size: 35px;
+	}
+	p{
+		font-size: 20px;
+	}
+    .right_side {	
+        margin: 0 70px 0 80px;
+        width:100%;
+	}
+		.titre_section {
+			text-transform: uppercase;
+			margin:0px 0 10px 0;
+		}
+			.bordure_titres_section {
+				border-bottom: 3px solid #2874A6;	
+            }
+		.block {
+			margin: 80px 0 35px;
+		}
+			.formation {
+				display: flex;
+				justify-content: space-between ;
+				width: 100%;
+			}
+				.formation_date{
+					font-weight: bolder;
+					margin: 0px 1% 0 0;
+					width: 30%;
+				}
+				.ecole {
+					margin-left: -5px;
+					width: 60%;
+				}
+					.societe {
+						margin:0 0 10px ;
+						font-size: 25.5px;
+						text-transform: uppercase;
+					}
+					.poste {
+						margin: 0;
+						text-transform: uppercase;
+						font-size: 22px;
+						text-decoration: none;
+						font-weight: bolder;
+					}
+					.fonction {
+						margin: 8px 0 50px;
+						font-size: 20px;
+					}
+					.fonction_bis, .fontion_exp_bis {
+						margin: 8px 0 70px;
+					}
+	.block_recommandation {
+		display: flex;
+		justify-content: space-between;
+        margin: 35px 12% 20px 0;
         font-size: 1.4em;
 	}
 		.recommandation_sous_titre {
