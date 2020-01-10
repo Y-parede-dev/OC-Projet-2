@@ -1,48 +1,17 @@
-@media all and (min-width: 1920px) {
+@media screen and (min-width: 1870px) and (max-width: 3000px) {
   aside {
-    width: 515px; }
-
-  .titres_aside {
-    margin: 50px 0; }
-
-  .contact_titre_info {
-    font-size: 23px;
-    margin: 30px 0 0 55px; }
-
-  .contact_info {
-    font-size: 23px;
-    margin: 0 0 30px 55px; }
-
-  .contact_img {
-    width: 280px;
-    height: 280px;
-    margin: 12% 0 0 20%;
-    border: #2874A6 5px solid;
-    border-radius: 50%; }
-
-  .description_bio {
-    margin: 0 55px 480px; }
-
-  .description_loisir > .logo {
-    margin: 0; }
-
-  .logo > i {
-    padding: 0 0 0 12%;
-    font-size: 60px; } }
-@media screen and (min-width: 1600px) and (max-width: 1920px) {
-  aside {
-    width: 515px; }
+    width: 40%; }
 
   .titres_aside {
     margin: 50px 0; }
 
   .contact_titre_info {
     font-size: 20px;
-    margin: 30px 0 0 55px; }
+    margin: 0px 0 0 55px; }
 
   .contact_info {
     font-size: 20px;
-    margin: 0 0 30px 55px; }
+    margin: 0 0 20px 55px; }
 
   .contact_img {
     width: 280px;
@@ -63,95 +32,107 @@
   .logo > i {
     padding: 0 0 0 12%;
     font-size: 60px; } }
-@media screen and (min-width: 1240px) and (max-width: 1600px) {
+@media screen and (min-width: 1660px) and (max-width: 1870px) {
+  aside {
+    width: 40%; }
+
   .titres_aside {
     margin: 50px 0; }
 
-  .contact_titre_info, .contact_info {
-    font-size: 23px;
-    font-weight: bold; }
-
   .contact_titre_info {
-    margin: 30px 0 0 65px; }
+    font-size: 20px;
+    margin: 0px 0 0 55px; }
 
   .contact_info {
-    margin: 0 0 30px 65px; }
+    font-size: 20px;
+    margin: 0 0 20px 55px; }
 
   .contact_img {
-    width: 280px;
-    height: 280px;
-    margin: 90px 0 0 90px;
+    width: 270px;
+    height: 270px;
+    margin: 12% 0 0 17%;
     border: #2874A6 5px solid;
     border-radius: 50%; }
 
   .description_bio {
-    margin: 0 65px 480px; }
+    margin: 0 55px 480px; }
+
+  .description_loisir {
+    margin: 0 0 50px; }
 
   .description_loisir > .logo {
     margin: 0; }
 
   .logo > i {
-    padding: 0 0 0 10%;
+    padding: 0 0 0 11.2%;
     font-size: 60px; } }
-@media screen and (min-width: 1024px) and (max-width: 1240px) {
+@media screen and (min-width: 800px) and (max-width: 1660px) {
+  aside {
+    width: 45%; }
+
   .titres_aside {
     margin: 50px 0; }
 
-  .contact_titre_info, .contact_info {
-    font-size: 23px;
-    font-weight: bold; }
-
   .contact_titre_info {
-    margin: 30px 0 0 65px; }
+    font-size: 20px;
+    margin: 0px 0 0 55px; }
 
   .contact_info {
-    margin: 0 0 30px 65px; }
+    font-size: 20px;
+    margin: 0 0 20px 55px; }
 
   .contact_img {
-    width: 280px;
-    height: 280px;
-    margin: 90px 0 0 90px;
+    width: 250px;
+    height: 250px;
+    margin: 12% 0 0 14.6%;
     border: #2874A6 5px solid;
     border-radius: 50%; }
 
   .description_bio {
-    margin: 0 65px 480px; }
+    margin: 0 55px 480px; }
+
+  .description_loisir {
+    margin: 0 0 50px; }
 
   .description_loisir > .logo {
     margin: 0; }
 
   .logo > i {
-    padding: 0 0 0 10%;
+    padding: 0 0 0 11.2%;
     font-size: 60px; } }
-@media screen and (min-width: 800px) and (max-width: 1024px) {
+@media screen and (min-width: 1660px) and (max-width: 800px) {
+  aside {
+    width: 40%; }
+
   .titres_aside {
     margin: 50px 0; }
 
-  .contact_titre_info, .contact_info {
-    font-size: 23px;
-    font-weight: bold; }
-
   .contact_titre_info {
-    margin: 30px 0 0 65px; }
+    font-size: 20px;
+    margin: 0px 0 0 55px; }
 
   .contact_info {
-    margin: 0 0 30px 65px; }
+    font-size: 20px;
+    margin: 0 0 20px 55px; }
 
   .contact_img {
-    width: 280px;
-    height: 280px;
-    margin: 90px 0 0 90px;
+    width: 270px;
+    height: 270px;
+    margin: 12% 0 0 17%;
     border: #2874A6 5px solid;
     border-radius: 50%; }
 
   .description_bio {
-    margin: 0 65px 480px; }
+    margin: 0 55px 480px; }
+
+  .description_loisir {
+    margin: 0 0 50px; }
 
   .description_loisir > .logo {
     margin: 0; }
 
   .logo > i {
-    padding: 0 0 0 10%;
+    padding: 0 0 0 11.2%;
     font-size: 60px; } }
 @media all and (max-width: 800) {
   .titres_aside {
@@ -226,6 +207,9 @@ h2 {
 .formation {
   justify-content: space-between; }
 
+.formation_date {
+  letter-spacing: -2.3px; }
+
 .fa-graduation-cap, .fa-suitcase, .fa-pencil-alt, .fa-dot-circle, .fa-circle, .en_tete_prenom {
   color: #2874A6; }
 
@@ -240,94 +224,16 @@ h2 {
     margin: 0%;
     border: 1.78px rgba(0, 0, 0, 0.5) solid;
     display: flex; } }
-@media all and (min-width: 1920px) {
+@media screen and (min-width: 1870px) and (max-width: 3000px) {
   h2 {
     font-size: 40px; }
-
-  p {
-    font-size: 23px; }
-
-  .right_side {
-    margin: 0 80px 0 100px;
-    width: 1100px; }
-
-  .titre_section {
-    text-transform: uppercase;
-    margin: 0px 0 15px 0; }
-
-  .bordure_titres_section {
-    border-bottom: 3px solid #2874A6; }
-
-  .block {
-    margin: 35px 0; }
-
-  .formation {
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-    margin: 0; }
-
-  .formation_date {
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 0px 33% 0 0;
-    width: 40%; }
-
-  .ecole {
-    margin-left: -5px;
-    width: 70%; }
-
-  .societe {
-    margin: 0 0 20px;
-    font-size: 30px;
-    text-transform: uppercase; }
-
-  .poste {
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 24px;
-    text-decoration: none;
-    font-weight: bolder; }
-
-  .fonction {
-    margin: 20px 0 35px 0;
-    font-size: 23px; }
-
-  .fonction_bis {
-    margin: 20px 0 0; }
-
-  .fonction_exp {
-    margin: 20px 0 -5px; }
-
-  .block_recommandation {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0 20px; }
-
-  .visible_max_screen {
-    display: none; }
-
-  .recommandation_info {
-    margin: -5px 0 18px; }
-
-  .info_bold {
-    font-weight: bold; }
-
-  .recommandation_info_mail {
-    margin: -5px 0 0; }
-
-  .fa-circle, .fa-dot-circle {
-    width: 25.84px; } }
-@media screen and (min-width: 1600px) and (max-width: 1920px) {
-  h2 {
-    font-size: 36px; }
 
   p {
     font-size: 20px; }
 
   .right_side {
     margin: 0 80px 0 100px;
-    width: 1100px; }
+    width: 100%; }
 
   .titre_section {
     text-transform: uppercase;
@@ -337,7 +243,7 @@ h2 {
     border-bottom: 3px solid #2874A6; }
 
   .block {
-    margin: 100px 0 20px; }
+    margin: 80px 0 35px; }
 
   .formation {
     display: flex;
@@ -367,17 +273,11 @@ h2 {
     font-weight: bolder; }
 
   .fonction {
-    margin: 8px 0 40px;
+    margin: 8px 0 50px;
     font-size: 20px; }
 
   .fonction_bis, .fontion_exp_bis {
     margin: 8px 0 70px; }
-
-  .fonction_exp {
-    margin: 8px 0 0 0; }
-
-  .block_experience {
-    margin: 70px 0; }
 
   .block_recommandation {
     display: flex;
@@ -385,11 +285,11 @@ h2 {
     margin: 35px 20% 20px 0;
     font-size: 1.4em; }
 
-  .visible_max_screen {
-    display: none; }
+  .recommandation_sous_titre {
+    margin: 12px 0; }
 
   .recommandation_info {
-    margin: -5px 0 18px; }
+    margin: 6px 0; }
 
   .info_bold {
     font-weight: bold;
@@ -399,71 +299,80 @@ h2 {
     margin: -5px 0 0; }
 
   .fa-circle, .fa-dot-circle {
-    width: 25.84px; } }
-@media screen and (min-width: 1240px) and (max-width: 1600px) {
+    width: 25.84px; }
+
+  .visible_max_screen {
+    display: none; } }
+@media screen and (min-width: 1660px) and (max-width: 1870px) {
   h2 {
     font-size: 40px; }
 
   p {
-    font-size: 23px; }
+    font-size: 20px; }
 
   .right_side {
-    margin: 0 0 0 100px; }
+    margin: 0 80px 0 100px;
+    width: 100%; }
 
   .titre_section {
     text-transform: uppercase;
-    margin: 0px 0 15px 0; }
+    margin: 0px 0 10px 0; }
 
   .bordure_titres_section {
     border-bottom: 3px solid #2874A6; }
 
+  .block {
+    margin: 80px 0 35px; }
+
+  .formation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+
+  .formation_date {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px 1% 0 0;
+    width: 30%; }
+
+  .ecole {
+    margin-left: -5px;
+    width: 70%; }
+
   .societe {
-    margin: 0 0 20px;
-    font-size: 30px;
+    margin: 0 0 10px;
+    font-size: 25.5px;
     text-transform: uppercase; }
 
   .poste {
     margin: 0;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
     font-weight: bolder; }
 
   .fonction {
-    margin: 20px 0 75px 0;
-    font-size: 23px; }
+    margin: 8px 0 50px;
+    font-size: 20px; }
 
-  .fonction_bis {
-    margin: 20px 0 0; }
-
-  .fonction_exp {
-    margin: 20px 0 -5px; }
-
-  .block {
-    margin: 78px 0; }
+  .fonction_bis, .fontion_exp_bis {
+    margin: 8px 0 70px; }
 
   .block_recommandation {
     display: flex;
     justify-content: space-between;
-    margin: 50px 0 20px; }
+    margin: 35px 20% 20px 0;
+    font-size: 1.4em; }
 
-  .formation {
-    display: flex;
-    justify-content: space-between; }
-
-  .formation_date {
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 0px; }
-
-  .visible_max_screen {
-    display: none; }
+  .recommandation_sous_titre {
+    margin: 12px 0; }
 
   .recommandation_info {
-    margin: -5px 0 18px; }
+    margin: 6px 0; }
 
   .info_bold {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 22px; }
 
   .recommandation_info_mail {
     margin: -5px 0 0; }
@@ -471,72 +380,78 @@ h2 {
   .fa-circle, .fa-dot-circle {
     width: 25.84px; }
 
-  .ecole {
-    margin-left: -5px; } }
-@media screen and (min-width: 1024px) and (max-width: 1240px) {
+  .visible_max_screen {
+    display: none; } }
+@media screen and (min-width: 800px) and (max-width: 1660px) {
   h2 {
     font-size: 40px; }
 
   p {
-    font-size: 23px; }
+    font-size: 20px; }
 
   .right_side {
-    margin: 0 0 0 100px; }
+    margin: 0 80px 0 100px;
+    width: 100%; }
 
   .titre_section {
     text-transform: uppercase;
-    margin: 0px 0 15px 0; }
+    margin: 0px 0 10px 0; }
 
   .bordure_titres_section {
     border-bottom: 3px solid #2874A6; }
 
+  .block {
+    margin: 80px 0 35px; }
+
+  .formation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+
+  .formation_date {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px 1% 0 0;
+    width: 30%; }
+
+  .ecole {
+    margin-left: -5px;
+    width: 70%; }
+
   .societe {
-    margin: 0 0 20px;
-    font-size: 30px;
+    margin: 0 0 10px;
+    font-size: 25.5px;
     text-transform: uppercase; }
 
   .poste {
     margin: 0;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
     font-weight: bolder; }
 
   .fonction {
-    margin: 20px 0 75px 0;
-    font-size: 23px; }
+    margin: 8px 0 50px;
+    font-size: 20px; }
 
-  .fonction_bis {
-    margin: 20px 0 0; }
-
-  .fonction_exp {
-    margin: 20px 0 -5px; }
-
-  .block {
-    margin: 78px 0; }
+  .fonction_bis, .fontion_exp_bis {
+    margin: 8px 0 70px; }
 
   .block_recommandation {
     display: flex;
     justify-content: space-between;
-    margin: 50px 0 20px; }
+    margin: 35px 20% 20px 0;
+    font-size: 1.4em; }
 
-  .formation {
-    display: flex;
-    justify-content: space-between; }
-
-  .formation_date {
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 0px; }
-
-  .visible_max_screen {
-    display: none; }
+  .recommandation_sous_titre {
+    margin: 12px 0; }
 
   .recommandation_info {
-    margin: -5px 0 18px; }
+    margin: 6px 0; }
 
   .info_bold {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 22px; }
 
   .recommandation_info_mail {
     margin: -5px 0 0; }
@@ -544,72 +459,78 @@ h2 {
   .fa-circle, .fa-dot-circle {
     width: 25.84px; }
 
-  .ecole {
-    margin-left: -5px; } }
-@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .visible_max_screen {
+    display: none; } }
+@media screen and (min-width: 1660px) and (max-width: 800px) {
   h2 {
     font-size: 40px; }
 
   p {
-    font-size: 23px; }
+    font-size: 20px; }
 
   .right_side {
-    margin: 0 0 0 100px; }
+    margin: 0 80px 0 100px;
+    width: 100%; }
 
   .titre_section {
     text-transform: uppercase;
-    margin: 0px 0 15px 0; }
+    margin: 0px 0 10px 0; }
 
   .bordure_titres_section {
     border-bottom: 3px solid #2874A6; }
 
+  .block {
+    margin: 80px 0 35px; }
+
+  .formation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+
+  .formation_date {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px 1% 0 0;
+    width: 30%; }
+
+  .ecole {
+    margin-left: -5px;
+    width: 70%; }
+
   .societe {
-    margin: 0 0 20px;
-    font-size: 30px;
+    margin: 0 0 10px;
+    font-size: 25.5px;
     text-transform: uppercase; }
 
   .poste {
     margin: 0;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
     font-weight: bolder; }
 
   .fonction {
-    margin: 20px 0 75px 0;
-    font-size: 23px; }
+    margin: 8px 0 50px;
+    font-size: 20px; }
 
-  .fonction_bis {
-    margin: 20px 0 0; }
-
-  .fonction_exp {
-    margin: 20px 0 -5px; }
-
-  .block {
-    margin: 78px 0; }
+  .fonction_bis, .fontion_exp_bis {
+    margin: 8px 0 70px; }
 
   .block_recommandation {
     display: flex;
     justify-content: space-between;
-    margin: 50px 0 20px; }
+    margin: 35px 20% 20px 0;
+    font-size: 1.4em; }
 
-  .formation {
-    display: flex;
-    justify-content: space-between; }
-
-  .formation_date {
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 0px; }
-
-  .visible_max_screen {
-    display: none; }
+  .recommandation_sous_titre {
+    margin: 12px 0; }
 
   .recommandation_info {
-    margin: -5px 0 18px; }
+    margin: 6px 0; }
 
   .info_bold {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 22px; }
 
   .recommandation_info_mail {
     margin: -5px 0 0; }
@@ -617,8 +538,8 @@ h2 {
   .fa-circle, .fa-dot-circle {
     width: 25.84px; }
 
-  .ecole {
-    margin-left: -5px; } }
+  .visible_max_screen {
+    display: none; } }
 @media all and (max-width: 800px) {
   h2 {
     font-size: 40px; }
@@ -692,50 +613,41 @@ h2 {
 
   .ecole {
     margin-left: -5px; } }
-@media all and (min-width: 1920px) {
+@media screen and (min-width: 1870px) and (max-width: 3000px) {
   .en_tete_titre {
-    margin: 150px 0 -57px 0;
-    font-size: 8.5rem;
+    margin: 125px 0 -40px 0;
+    font-size: 90px;
+    text-transform: uppercase; }
+
+  .en_tete_sous_titre {
+    margin-bottom: 170px;
+    font-size: 40px; } }
+@media screen and (min-width: 1660px) and (max-width: 1870px) {
+  .en_tete_titre {
+    margin: 115px 0 -40px 0;
+    font-size: 90px;
     text-transform: uppercase; }
 
   .en_tete_sous_titre {
     margin-bottom: 160px;
-    font-size: 52px; } }
-@media screen and (min-width: 1240px) and (max-width: 1920px) {
-  .en_tete_titre {
-    margin: 125px 0 -40px 0;
-    font-size: 90px;
-    text-transform: uppercase; }
-
-  .en_tete_sous_titre {
-    margin-bottom: 170px;
     font-size: 40px; } }
-@media screen and (min-width: 1024px) and (max-width: 1240px) {
+@media screen and (min-width: 800px) and (max-width: 1660px) {
   .en_tete_titre {
-    margin: 125px 0 -40px 0;
+    margin: 110px 0 -40px 0;
     font-size: 90px;
     text-transform: uppercase; }
 
   .en_tete_sous_titre {
-    margin-bottom: 170px;
-    font-size: 40px; } }
-@media screen and (min-width: 800px) and (max-width: 1024px) {
-  .en_tete_titre {
-    margin: 125px 0 -40px 0;
-    font-size: 90px;
-    text-transform: uppercase; }
-
-  .en_tete_sous_titre {
-    margin-bottom: 170px;
+    margin-bottom: 150px;
     font-size: 40px; } }
 @media all and (max-width: 800px) {
   .en_tete_titre {
-    margin: 125px 0 -40px 0;
+    margin: 100px 0 -40px 0;
     font-size: 90px;
     text-transform: uppercase; }
 
   .en_tete_sous_titre {
-    margin-bottom: 170px;
+    margin-bottom: 140px;
     font-size: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
