@@ -54,13 +54,16 @@
     .description_bio {
         margin: 0 55px 480px;
     }
-    .description_loisir > .logo{
-        margin: 0;
+    .description_loisir {
+        margin: 0 0 50px;
     }
-        .logo > i {
-            padding: 0 0 0 12%;
-            font-size: 60px;
+        .description_loisir > .logo{
+            margin: 0;
         }
+            .logo > i {
+                padding: 0 0 0 12%;
+                font-size: 60px;
+            }
 }
 @media screen and (min-width: 1240px) and (max-width: 1600px) {
     .titres_aside {  

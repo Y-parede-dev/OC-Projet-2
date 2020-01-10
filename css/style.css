@@ -54,6 +54,9 @@
   .description_bio {
     margin: 0 55px 480px; }
 
+  .description_loisir {
+    margin: 0 0 50px; }
+
   .description_loisir > .logo {
     margin: 0; }
 
@@ -389,7 +392,8 @@ h2 {
     margin: -5px 0 18px; }
 
   .info_bold {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 22px; }
 
   .recommandation_info_mail {
     margin: -5px 0 0; }
