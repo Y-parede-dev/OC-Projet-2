@@ -135,13 +135,13 @@
             margin: 0;
         }
             .logo > i {
-                padding: 0 0 0 11.2%;
+                padding: 0 0 0 9%;
                 font-size: 60px;
             }
 }
-@media screen and (min-width: 800px) and (max-width: 1230px) {
+@media screen and (min-width: 1000px) and (max-width: 1230px) {
     aside {
-        width:65%;
+        width:55%;
     }
     .titres_aside {
         margin: 50px 0;
@@ -155,7 +155,8 @@
         margin: 0 0 20px 55px;
     }
     .contact_img {
-        margin: 12% 0 0 24%;
+        width: 235px;height: 235px;
+        margin: 12% 0 0 17%;
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
@@ -169,11 +170,12 @@
             margin: 0;
         }
             .logo > i {
-                padding: 0 0 0 11.2%;
+                padding: 0 0 0 9%;
                 font-size: 60px;
             }
 }
-@media all and (max-width: 800) {
+
+@media all and (max-width: 1000px) {
     .titres_aside {  
         margin: 50px 0;
     }
@@ -189,8 +191,8 @@
     }
     .contact_img {
 
-        width: 280px;height: 280px;
-        margin: 90px 0 0 90px;
+        width: 30%;height: 30%;
+        margin: 75px 0 0 35%;
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
@@ -198,7 +200,7 @@
         margin: 0 65px 480px;
     }
     .description_loisir > .logo{
-        margin: 0;
+        margin: 0 0 50px 22%;
     }
         .logo > i {
             padding: 0 0 0 10%;

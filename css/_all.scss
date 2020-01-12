@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	margin: 0;
+	display: flex;
 	font-family: 'Courier Prime', monospace;
 }
 aside {
@@ -59,11 +60,11 @@ h2 {
 .underline {
 	text-decoration: underline #2874A6;
 }
-@media (min-width: 800px) {
+@media all and (max-width: 1000px) {
 	body {
 		margin: 0%;
 		border: 1.78px rgba(0,0,0,0.5) solid;
 		display: flex;
+		flex-direction: column-reverse;
 	}
-
 }

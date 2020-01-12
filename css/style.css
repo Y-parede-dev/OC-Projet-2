@@ -132,11 +132,11 @@
     margin: 0; }
 
   .logo > i {
-    padding: 0 0 0 11.2%;
+    padding: 0 0 0 9%;
     font-size: 60px; } }
-@media screen and (min-width: 800px) and (max-width: 1230px) {
+@media screen and (min-width: 1000px) and (max-width: 1230px) {
   aside {
-    width: 65%; }
+    width: 55%; }
 
   .titres_aside {
     margin: 50px 0; }
@@ -150,7 +150,9 @@
     margin: 0 0 20px 55px; }
 
   .contact_img {
-    margin: 12% 0 0 24%;
+    width: 235px;
+    height: 235px;
+    margin: 12% 0 0 17%;
     border: #2874A6 5px solid;
     border-radius: 50%; }
 
@@ -164,9 +166,9 @@
     margin: 0; }
 
   .logo > i {
-    padding: 0 0 0 11.2%;
+    padding: 0 0 0 9%;
     font-size: 60px; } }
-@media all and (max-width: 800) {
+@media all and (max-width: 1000px) {
   .titres_aside {
     margin: 50px 0; }
 
@@ -181,9 +183,9 @@
     margin: 0 0 30px 65px; }
 
   .contact_img {
-    width: 280px;
-    height: 280px;
-    margin: 90px 0 0 90px;
+    width: 30%;
+    height: 30%;
+    margin: 75px 0 0 35%;
     border: #2874A6 5px solid;
     border-radius: 50%; }
 
@@ -191,7 +193,7 @@
     margin: 0 65px 480px; }
 
   .description_loisir > .logo {
-    margin: 0; }
+    margin: 0 0 50px 22%; }
 
   .logo > i {
     padding: 0 0 0 10%;
@@ -199,6 +201,7 @@
 body {
   width: 100%;
   margin: 0;
+  display: flex;
   font-family: 'Courier Prime', monospace; }
 
 aside {
@@ -252,11 +255,12 @@ h2 {
 .underline {
   text-decoration: underline #2874A6; }
 
-@media (min-width: 800px) {
+@media all and (max-width: 1000px) {
   body {
     margin: 0%;
     border: 1.78px rgba(0, 0, 0, 0.5) solid;
-    display: flex; } }
+    display: flex;
+    flex-direction: column-reverse; } }
 @media screen and (min-width: 1870px) and (max-width: 3000px) {
   h2 {
     font-size: 40px; }
@@ -518,9 +522,10 @@ h2 {
     width: 100%; }
 
   .formation_date {
-    font-weight: bolder;
+    width: 30%;
     margin: 0px 1% 0 0;
-    width: 30%; }
+    font-size: 19px;
+    font-weight: bolder; }
 
   .ecole {
     margin-left: -5px;
@@ -549,7 +554,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin: 35px 0 20px 0;
-    font-size: 1.4em; }
+    font-size: 1.25em; }
 
   .recommandation_sous_titre {
     margin: 12px 0; }
@@ -559,7 +564,7 @@ h2 {
 
   .info_bold {
     font-weight: bold;
-    font-size: 22px; }
+    font-size: 20px; }
 
   .recommandation_info_mail {
     margin: -5px 0 0; }
@@ -569,7 +574,7 @@ h2 {
 
   .visible_max_screen {
     display: none; } }
-@media screen and (min-width: 800px) and (max-width: 1230px) {
+@media screen and (min-width: 1000px) and (max-width: 1230px) {
   h2 {
     font-size: 35px; }
 
@@ -596,9 +601,10 @@ h2 {
     width: 100%; }
 
   .formation_date {
-    font-weight: bolder;
+    width: 30%;
     margin: 0px 1% 0 0;
-    width: 30%; }
+    font-size: 19px;
+    font-weight: bolder; }
 
   .ecole {
     margin-left: -5px;
@@ -626,8 +632,8 @@ h2 {
   .block_recommandation {
     display: flex;
     justify-content: space-between;
-    margin: 35px 12% 20px 0;
-    font-size: 1.4em; }
+    margin: 35px 0 20px 0;
+    font-size: 1.25em; }
 
   .recommandation_sous_titre {
     margin: 12px 0; }
@@ -637,7 +643,7 @@ h2 {
 
   .info_bold {
     font-weight: bold;
-    font-size: 22px; }
+    font-size: 20px; }
 
   .recommandation_info_mail {
     margin: -5px 0 0; }
@@ -647,9 +653,9 @@ h2 {
 
   .visible_max_screen {
     display: none; } }
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
   h2 {
-    font-size: 40px; }
+    font-size: 35px; }
 
   p {
     font-size: 23px; }
@@ -663,6 +669,10 @@ h2 {
 
   .bordure_titres_section {
     border-bottom: 3px solid #2874A6; }
+
+  .block {
+    margin: 78px 0;
+    display: flex; }
 
   .societe {
     margin: 0 0 20px;
@@ -686,19 +696,16 @@ h2 {
   .fonction_exp {
     margin: 20px 0 -5px; }
 
-  .block {
-    margin: 78px 0; }
-
   .block_recommandation {
     display: flex;
     justify-content: space-between;
     margin: 50px 0 20px; }
 
   .formation {
-    display: flex;
     justify-content: space-between; }
 
   .formation_date {
+    display: flex;
     font-weight: bolder;
     font-size: 20px;
     margin: 0px; }
@@ -756,7 +763,7 @@ h2 {
   .en_tete_sous_titre {
     margin-bottom: 100px;
     font-size: 40px; } }
-@media screen and (min-width: 800px) and (max-width: 1230px) {
+@media screen and (min-width: 1000px) and (max-width: 1230px) {
   .en_tete_titre {
     margin: 80px 0 -40px 0;
     font-size: 65px;
@@ -765,7 +772,7 @@ h2 {
   .en_tete_sous_titre {
     margin-bottom: 100px;
     font-size: 35px; } }
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
   .en_tete_titre {
     margin: 100px 0 -40px 0;
     font-size: 90px;
