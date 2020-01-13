@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 1870px) and (max-width: 3000px) {
+@media all and (min-width: 1870px) {
     aside {
         width:40%;
     }
@@ -215,7 +215,7 @@
         margin: 50px 0;
     }
     .contact_titre_info, .contact_info {
-        font-size: 23px;
+        font-size: 20px;
         font-weight: bold;
     }
     .contact_titre_info {
@@ -236,7 +236,7 @@
     }
     .description_loisir > .logo{
         margin: 0 0 50px 0%;
-        font-size: 11px;
+        font-size: 10px;
     }
         .fas_logo_loisir {
             padding: 0 0 0 16.3%;

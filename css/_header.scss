@@ -1,5 +1,5 @@
 
-@media screen and (min-width:1870px) and (max-width:3000px) {
+@media all and (min-width:1870px) {
     
     .en_tete_titre {
         margin: 125px 0 -40px 0;
@@ -69,7 +69,7 @@
         font-size: 35px;
     }
 }
-@media all and (max-width: 1000px) {
+@media screen and (min-width: 750px) and (max-width: 1000px) {
     
     .en_tete_titre {
         margin: 60px 0 -40px 0;
@@ -81,5 +81,19 @@
         
         margin-bottom: 75px;
         font-size: 35px;
+    }
+}
+@media all and (max-width: 750px) {
+        
+    .en_tete_titre {
+        margin: 50px 0 -30px 0;
+        
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    .en_tete_sous_titre {
+        
+        margin-bottom: 45px;
+        font-size: 25px;
     }
 }

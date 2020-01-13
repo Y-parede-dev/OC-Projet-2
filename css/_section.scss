@@ -1,5 +1,5 @@
 
-@media screen and (min-width:1870px) and (max-width: 3000px) {  
+@media all and (min-width:1870px) {  
 	h2 {
 		font-size: 40px;
 	}
@@ -470,13 +470,11 @@
 		.formation_experience_last {
 			margin: 0 8% 0 8%;
 		}
-
 	.block_recommandation {
 		display: flex;
 		justify-content: space-between;
 		margin: 50px 0 20px;
 	}
-	
 	.recommandation_info {
 		margin: -5px 0 18px;
 	}
@@ -489,15 +487,14 @@
 	.fa-circle, .fa-dot-circle {
 		width: 25.84px ;
 	}
-	
 }
 @media all and (max-width: 750px) {
-    
+
 	h2 {
 		font-size: 35px;
 	}
 	p{
-		font-size: 23px;
+		font-size: 17px;
 	}
     .right_side {	
 		margin: 0 4%;
@@ -510,34 +507,35 @@
 				border-bottom: 3px solid #2874A6;	
 			}
 	.block {
+		width: 100%;
 		margin: 45px 0;
 		display: flex;
 		justify-content: space-between;
 	}
 		.formation {
-			width: 60%;
+			width: 40%;
 			margin: 0 0 0 5%;
 		}
 			.formation_date {
 				font-weight: bolder;
-				font-size: 19.8px;
+				font-size: 15px;
 				margin:0px 0 20px;
 			}
 			.societe {
 				margin:0 0 10px ;
-				font-size: 27px;
+				font-size: 19px;
 				text-transform: uppercase;
 			}
 			.poste {
 				margin: 0;
 				text-transform: uppercase;
-				font-size: 21px;
+				font-size: 18px;
 				text-decoration: none;
 				font-weight: bolder;
 			}
 			.fonction {
 				margin: 10px 0 50px 0;
-				font-size: 19.8px;
+				font-size: 17px;
 			}
 				.fonction_bis {
 					margin: 20px 0 0;
@@ -550,11 +548,11 @@
 		}
 		.formation_experience {
 			width: 100%;
-			margin: 0 0 0 3%;	
+			margin: 0 2% 0 0;	
 		}
 		.formation_experience_last {
 			
-			margin: 0 3% 0 3%;
+			margin: 0 ;
 		}
 
 	.block_recommandation {
