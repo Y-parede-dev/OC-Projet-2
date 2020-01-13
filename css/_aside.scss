@@ -175,7 +175,7 @@
             }
 }
 
-@media all and (max-width: 1000px) {
+@media screen and (min-width: 750px) and (max-width: 1000px) {
     .titres_aside {  
         margin: 50px 0;
     }
@@ -184,10 +184,10 @@
         font-weight: bold;
     }
     .contact_titre_info {
-        margin: 30px 0 0 65px;
+        margin: 30px 0 0 10%;
     }
     .contact_info {
-        margin: 0 0 30px 65px;
+        margin: 0 0 30px 10%;
     }
     .contact_img {
 
@@ -197,13 +197,51 @@
         border-radius: 50%;
     }
     .description_bio {
-        margin: 0 65px 480px;
+        margin: 0 10% 120px;
     }
     .description_loisir > .logo{
-        margin: 0 0 50px 22%;
+        margin: 0 0 50px 0%;
     }
-        .logo > i {
-            padding: 0 0 0 10%;
+        .fas_logo_loisir {
+            padding: 0 0 0 16%;
             font-size: 60px;
+        }
+        .fas_logo_loisir_last {
+            padding: 0 16% 0;
+        }
+}
+@media all and (max-width: 750px) {
+    .titres_aside {  
+        margin: 50px 0;
+    }
+    .contact_titre_info, .contact_info {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .contact_titre_info {
+        margin: 30px 0 0 10%;
+    }
+    .contact_info {
+        margin: 0 0 30px 10%;
+    }
+    .contact_img {
+
+        width: 30%;height: 30%;
+        margin: 75px 0 0 35%;
+        border: #2874A6 5px solid;
+        border-radius: 50%;
+    }
+    .description_bio {
+        margin: 0 10% 120px;
+    }
+    .description_loisir > .logo{
+        margin: 0 0 50px 0%;
+        font-size: 11px;
+    }
+        .fas_logo_loisir {
+            padding: 0 0 0 16.3%;
+        }
+        .fas_logo_loisir_last {
+            padding: 0 16.3% 0;
         }
 }

@@ -406,7 +406,7 @@
 		display: none;
 	}
 }
-@media all and (max-width: 1000px) {
+@media screen and (min-width:750px) and (max-width: 1000px) {
     
 	h2 {
 		font-size: 35px;
@@ -415,7 +415,7 @@
 		font-size: 23px;
 	}
     .right_side {	
-		margin: 0 0 0 100px;
+		margin: 0 4%;
 	}
 		.titre_section {
 			text-transform: uppercase;
@@ -425,50 +425,58 @@
 				border-bottom: 3px solid #2874A6;	
 			}
 	.block {
-		margin: 78px 0;
+		margin: 45px 0;
 		display: flex;
+		justify-content: space-between;
 	}
-		.societe {
-			margin:0 0 20px ;
-			font-size: 30px;
-			text-transform: uppercase;
+		.formation {
+			width: 60%;
+			margin: 0 0 0 10%;
 		}
-		.poste {
-			margin: 0;
-			text-transform: uppercase;
-			font-size: 24px;
-			text-decoration: none;
-			font-weight: bolder;
-		}
-		.fonction {
-			margin: 20px 0 75px 0;
-			font-size: 23px;
-		}
-			.fonction_bis {
-				margin: 20px 0 0;
+			.formation_date {
+				font-weight: bolder;
+				font-size: 19.8px;
+				margin:0px 0 20px;
 			}
-		.fonction_exp {
-			margin: 20px 0 -5px;;
+			.societe {
+				margin:0 0 10px ;
+				font-size: 27px;
+				text-transform: uppercase;
+			}
+			.poste {
+				margin: 0;
+				text-transform: uppercase;
+				font-size: 21px;
+				text-decoration: none;
+				font-weight: bolder;
+			}
+			.fonction {
+				margin: 10px 0 50px 0;
+				font-size: 19.8px;
+			}
+				.fonction_bis {
+					margin: 20px 0 0;
+				}
+			.fonction_exp {
+				margin: 20px 0 -5px;;
+			}
+		.formation_last {
+			margin: 0 10% 0 10%;
 		}
+		.formation_experience {
+			width: 100%;
+			margin: 0 0 0 8%;	
+		}
+		.formation_experience_last {
+			margin: 0 8% 0 8%;
+		}
+
 	.block_recommandation {
 		display: flex;
 		justify-content: space-between;
 		margin: 50px 0 20px;
 	}
-	.formation {
 	
-		justify-content: space-between ;
-
-	}
-		.formation_date{
-			display: flex;
-			font-weight: bolder;
-			font-size: 20px;
-			margin:0px;
-		}
-			.visible_max_screen {
-				display: none;
-			}
 	.recommandation_info {
 		margin: -5px 0 18px;
 	}
@@ -481,7 +489,90 @@
 	.fa-circle, .fa-dot-circle {
 		width: 25.84px ;
 	}
-	.ecole {
-		margin-left: -5px;
+	
+}
+@media all and (max-width: 750px) {
+    
+	h2 {
+		font-size: 35px;
 	}
+	p{
+		font-size: 23px;
+	}
+    .right_side {	
+		margin: 0 4%;
+	}
+		.titre_section {
+			text-transform: uppercase;
+			margin:0px 0 15px 0;
+		}
+			.bordure_titres_section {
+				border-bottom: 3px solid #2874A6;	
+			}
+	.block {
+		margin: 45px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+		.formation {
+			width: 60%;
+			margin: 0 0 0 5%;
+		}
+			.formation_date {
+				font-weight: bolder;
+				font-size: 19.8px;
+				margin:0px 0 20px;
+			}
+			.societe {
+				margin:0 0 10px ;
+				font-size: 27px;
+				text-transform: uppercase;
+			}
+			.poste {
+				margin: 0;
+				text-transform: uppercase;
+				font-size: 21px;
+				text-decoration: none;
+				font-weight: bolder;
+			}
+			.fonction {
+				margin: 10px 0 50px 0;
+				font-size: 19.8px;
+			}
+				.fonction_bis {
+					margin: 20px 0 0;
+				}
+			.fonction_exp {
+				margin: 20px 0 -5px;;
+			}
+		.formation_last {
+			margin: 0 5% 0 5%;
+		}
+		.formation_experience {
+			width: 100%;
+			margin: 0 0 0 3%;	
+		}
+		.formation_experience_last {
+			
+			margin: 0 3% 0 3%;
+		}
+
+	.block_recommandation {
+		display: flex;
+		justify-content: space-between;
+		margin: 50px 0 20px;
+	}
+	.recommandation_info {
+		margin: -5px 0 18px;
+	}
+		.info_bold {
+			font-weight: bold;
+		}
+		.recommandation_info_mail {
+			margin: -5px 0 0;
+		}
+	.fa-circle, .fa-dot-circle {
+		width: 25.84px ;
+	}
+	
 }
