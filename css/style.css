@@ -203,7 +203,8 @@
     padding: 0 16% 0; } }
 @media all and (max-width: 750px) {
   .titres_aside {
-    margin: 50px 0; }
+    margin: 50px 0;
+    font-size: 35px; }
 
   .contact_titre_info, .contact_info {
     font-size: 20px;
@@ -773,7 +774,7 @@ h2 {
     font-size: 35px; }
 
   p {
-    font-size: 17px; }
+    font-size: 20px; }
 
   .right_side {
     margin: 0 4%; }
@@ -797,7 +798,7 @@ h2 {
 
   .formation_date {
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0px 0 20px; }
 
   .societe {
@@ -808,13 +809,13 @@ h2 {
   .poste {
     margin: 0;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 21px;
     text-decoration: none;
     font-weight: bolder; }
 
   .fonction {
     margin: 10px 0 50px 0;
-    font-size: 17px; }
+    font-size: 20px; }
 
   .fonction_bis {
     margin: 20px 0 0; }
