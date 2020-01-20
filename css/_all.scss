@@ -44,9 +44,10 @@ h2 {
 .societe , .poste {
 	text-transform: uppercase;
 }
-.formation {
-	justify-content: space-between ;
+.fas_cv {
+	margin: 0 1% 0 0;
 }
+
 .formation_date {
 	letter-spacing: -2.3px;
 	font-size: 21px;
@@ -66,5 +67,11 @@ h2 {
 		border: 1.78px rgba(0,0,0,0.5) solid;
 		display: flex;
 		flex-direction: column-reverse;
+	}
+}
+@media all and (min-width: 1000px) {
+	.date_and_info {
+		display: flex;
+		justify-content: space-between;
 	}
 }

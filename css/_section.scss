@@ -22,13 +22,13 @@
 		}
 			.formation {
 				display: flex;
-				justify-content: space-between ;
+				
 				width: 100%;
 			}
 				.formation_date{
 					font-weight: bolder;
-					margin: 0px 1% 0 0;
-					width: 30%;
+					margin: 0px 2.8% 0 1%;
+					width: 20%;
 				}
 				.ecole {
 					margin-left: -5px;
@@ -103,13 +103,13 @@
 		}
 			.formation {
 				display: flex;
-				justify-content: space-between ;
+				
 				width: 100%;
 			}
 				.formation_date{
 					font-weight: bolder;
-					margin: 0px 1% 0 0;
-					width: 30%;
+					margin: 0px 2.8% 0 1%;
+					width: 20%;
 				}
 				.ecole {
 					margin-left: -5px;
@@ -183,13 +183,13 @@
 		}
 			.formation {
 				display: flex;
-				justify-content: space-between ;
+				
 				width: 100%;
 			}
 				.formation_date{
 					font-weight: bolder;
-					margin: 0px 1% 0 0;
-					width: 30%;
+					margin: 0px 10% 0 1%;
+					width: 20%;
 				}
 				.ecole {
 					margin-left: -5px;
@@ -248,7 +248,7 @@
 		font-size: 20px;
 	}
     .right_side {	
-        margin: 0 70px 0 80px;
+        margin: 0 65px 0 65px;
         width:100%;
 	}
 		.titre_section {
@@ -263,19 +263,17 @@
 		}
 			.formation {
 				display: flex;
-				justify-content: space-between ;
+				
 				width: 100%;
 			}
 				.formation_date{
-					width: 30%;
-
-					margin: 0px 1% 0 0;
-					font-size: 19px;
 					font-weight: bolder;
+					margin: 0px 3.5% 0 1%;
+					width: 30%;
 				}
 				.ecole {
 					margin-left: -5px;
-					width: 60%;
+					width: 65%;
 				}
 					.societe {
 						margin:0 0 10px ;
@@ -325,14 +323,14 @@
 }
 @media screen and (min-width:1000px) and (max-width: 1230px) {  
 	h2 {
-		font-size: 35px;
+		font-size: 30px;
 	}
 	p{
 		font-size: 20px;
 	}
     .right_side {	
-        margin: 0 70px 0 80px;
-        width:100%;
+        margin: 0 50px 0 50px;
+		width:85%;
 	}
 		.titre_section {
 			text-transform: uppercase;
@@ -346,19 +344,17 @@
 		}
 			.formation {
 				display: flex;
-				justify-content: space-between ;
+				
 				width: 100%;
 			}
 				.formation_date{
-					width: 30%;
-
-					margin: 0px 1% 0 0;
-					font-size: 19px;
 					font-weight: bolder;
+					margin: 0px 2% 0 1%;
+					width: 40%;
 				}
 				.ecole {
 					margin-left: -5px;
-					width: 60%;
+					width: 55%;
 				}
 					.societe {
 						margin:0 0 10px ;
@@ -431,7 +427,7 @@
 	}
 		.formation {
 			width: 60%;
-			margin: 0 0 0 10%;
+			margin: 0 0 0 5%;
 		}
 			.formation_date {
 				font-weight: bolder;
@@ -461,14 +457,14 @@
 				margin: 20px 0 -5px;;
 			}
 		.formation_last {
-			margin: 0 10% 0 10%;
+			margin: 0 5%;
 		}
 		.formation_experience {
 			width: 100%;
-			margin: 0 0 0 8%;	
+			margin: 0 0 0 4%;	
 		}
 		.formation_experience_last {
-			margin: 0 8% 0 8%;
+			margin: 0 4%;
 		}
 	.block_recommandation {
 		display: flex;
