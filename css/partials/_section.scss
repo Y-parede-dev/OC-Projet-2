@@ -415,7 +415,7 @@
 	}
 		.titre_section {
 			text-transform: uppercase;
-			margin:0px 0 15px 0;
+			margin: 0px 0 15px 0;
 		}
 			.bordure_titres_section {
 				border-bottom: 3px solid #2874A6;	
@@ -428,14 +428,15 @@
 		.formation {
 			width: 60%;
 			margin: 0 0 0 5%;
-		}
+		
 			.formation_date {
 				font-weight: bolder;
 				font-size: 19.8px;
-				margin:0px 0 20px;
+				margin: 0px 0 20px;
 			}
+		}
 			.societe {
-				margin:0 0 10px ;
+				margin: 0 0 10px ;
 				font-size: 27px;
 				text-transform: uppercase;
 			}
@@ -450,9 +451,10 @@
 				margin: 10px 0 50px 0;
 				font-size: 19.8px;
 			}
-				.fonction_bis {
-					margin: 20px 0 0;
-				}
+			.fonction_bis {
+				margin: 20px 0 0;
+			}
+			
 			.fonction_exp {
 				margin: 20px 0 -5px;;
 			}
@@ -497,7 +499,7 @@
 	}
 		.titre_section {
 			text-transform: uppercase;
-			margin:0px 0 15px 0;
+			margin: 0px 0 15px 0;
 		}
 			.bordure_titres_section {
 				border-bottom: 3px solid #2874A6;	
@@ -515,10 +517,10 @@
 			.formation_date {
 				font-weight: bolder;
 				font-size: 18px;
-				margin:0px 0 20px;
+				margin: 0px 0 20px;
 			}
 			.societe {
-				margin:0 0 10px ;
+				margin: 0 0 10px ;
 				font-size: 19px;
 				text-transform: uppercase;
 			}
