@@ -6,11 +6,11 @@
     .titres_aside {
         margin: 50px 0;
     }
-    .contact_titre_info {
+    .contact>h3 {
         font-size: 20px;
         margin: 0px 0 0 55px;
     }
-    .contact_info {
+    .contact>p {
         font-size: 20px;
         margin: 0 0 20px 55px;
     }
@@ -21,7 +21,7 @@
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
-    .description_bio {
+    .description>p{
         margin: 0 55px 480px;
     }
     .description_loisir {
@@ -42,11 +42,11 @@
     .titres_aside {
         margin: 50px 0;
     }
-    .contact_titre_info {
+    .contact>h3 {
         font-size: 20px;
         margin: 0px 0 0 55px;
     }
-    .contact_info {
+    .contact>p {
         font-size: 20px;
         margin: 0 0 20px 55px;
     }
@@ -57,7 +57,7 @@
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
-    .description_bio {
+    .description>p {
         margin: 0 55px 480px;
     }
     .description_loisir {
@@ -78,11 +78,11 @@
     .titres_aside {
         margin: 50px 0;
     }
-    .contact_titre_info {
+    .contact>h3 {
         font-size: 20px;
         margin: 0px 0 0 55px;
     }
-    .contact_info {
+    .contact>p {
         font-size: 20px;
         margin: 0 0 20px 55px;
     }
@@ -93,7 +93,7 @@
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
-    .description_bio {
+    .description>p {
         margin: 0 55px 480px;
     }
     .description_loisir {
@@ -114,11 +114,11 @@
     .titres_aside {
         margin: 50px 0;
     }
-    .contact_titre_info {
+    .contact>h3 {
         font-size: 20px;
         margin: 0px 0 0 55px;
     }
-    .contact_info {
+    .contact>p {
         font-size: 20px;
         margin: 0 0 20px 55px;
     }
@@ -129,7 +129,7 @@
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
-    .description_bio {
+    .description>p {
         margin: 0 55px 480px;
     }
     .description_loisir {
@@ -150,11 +150,11 @@
     .titres_aside {
         margin: 50px 0;
     }
-    .contact_titre_info {
+    .contact>h3 {
         font-size: 20px;
         margin: 0px 0 0 55px;
     }
-    .contact_info {
+    .contact>p {
         font-size: 20px;
         margin: 0 0 20px 55px;
     }
@@ -165,7 +165,7 @@
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
-    .description_bio {
+    .description>p {
         margin: 0 55px 480px;
     }
     .description_loisir {
@@ -180,18 +180,19 @@
             }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     .titres_aside {  
         margin: 50px 0;
+        font-size: $seize-h2;
     }
-    .contact_titre_info, .contact_info {
+    .contact>h3, .contact>p {
         font-size: 23px;
         font-weight: bold;
     }
-    .contact_titre_info {
+    .contact>h3 {
         margin: 30px 0 0 10%;
     }
-    .contact_info {
+    .contact>p {
         margin: 0 0 30px 10%;
     }
     .contact_img {
@@ -202,54 +203,18 @@
         border: #2874A6 5px solid;
         border-radius: 50%;
     }
-    .description_bio {
+    .description>p {
         margin: 0 10% 120px;
+        font-size: $seize-p;
     }
     .description_loisir > .logo{
         margin: 0 0 50px 0%;
     }
         .fas_logo_loisir {
-            padding: 0 0 0 16%;
+            padding: 0 0 0 18%;
             font-size: 60px;
         }
         .fas_logo_loisir_last {
             padding: 0 16% 0;
-        }
-}
-@media all and (max-width: 750px) {
-    .titres_aside {  
-        margin: 50px 0;
-        font-size: 35px;
-    }
-    .contact_titre_info, .contact_info {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .contact_titre_info {
-        margin: 30px 0 0 10%;
-    }
-    .contact_info {
-        margin: 0 0 30px 10%;
-    }
-    .contact_img {
-
-        width: 30%;
-        height: 30%;
-        margin: 75px 0 0 35%;
-        border: #2874A6 5px solid;
-        border-radius: 50%;
-    }
-    .description_bio {
-        margin: 0 10% 120px;
-    }
-    .description_loisir > .logo{
-        margin: 0 0 50px 0%;
-        font-size: 10px;
-    }
-        .fas_logo_loisir {
-            padding: 0 0 0 16.3%;
-        }
-        .fas_logo_loisir_last {
-            padding: 0 16.3% 0;
         }
 }

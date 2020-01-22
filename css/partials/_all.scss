@@ -1,3 +1,10 @@
+@mixin rotate ($rotate){
+	-webkit-transform: rotate($rotate);
+	-moz-transform: rotate($rotate);
+	-ms-transform: rotate($rotate);
+	-o-transform: rotate($rotate);
+	transform: rotate($rotate);	
+}
 body {
 	width: 100%;
 	margin: 0;
@@ -6,25 +13,21 @@ body {
 }
 aside {
 	background-color: #AED6F1;
-	& >.contact{
+	.contact{
 		font-weight: bold;
-		& > .contact_img {
-			-webkit-transform: rotate(-90deg);
-			-moz-transform: rotate(-90deg);
-			-ms-transform: rotate(-90deg);
-			-o-transform: rotate(-90deg);
-			transform: rotate(-90deg);	
+		.contact_img {
+			@include rotate(-90deg);
 		}
-		& > .contact_telephone {
+		.contact_telephone {
 			letter-spacing: -3.2px;
 		}
-			& a {
-				color: black;
-				text-decoration: none;	
-				&:hover {
-					color: white;
-				}
+		a {
+			color: black;
+			text-decoration: none;	
+			&:hover {
+				color: white;
 			}
+		}
 	}
 }
 .titres_aside{
@@ -50,7 +53,6 @@ h2 {
 
 .formation_date {
 	letter-spacing: -2.3px;
-	font-size: 21px;
 }
 .fa-graduation-cap , .fa-suitcase , .fa-pencil-alt , .fa-dot-circle, .fa-circle, .en_tete_prenom {
 	color:#2874A6;
