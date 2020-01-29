@@ -9,12 +9,22 @@ body {
 	width: 100%;
 	margin: 0;
 	display: flex;
+	font-size: 1.3em;
 	font-family: 'Courier Prime', monospace;
 }
+h2 {
+	font-size: 1.8em;
+}
 aside {
-	background-color: #AED6F1;
+	background-color: $bleu-clair;
 	.contact{
 		font-weight: bold;
+		p {
+			font-size: 1.3em;
+		}
+		h3 {
+			font-size: 1em;
+		}
 		.contact_img {
 			@include rotate(-90deg);
 		}
@@ -30,12 +40,14 @@ aside {
 		}
 	}
 }
+
 .titres_aside{
 	text-transform: uppercase;
 	text-align: center;
-	color: #AED6F1;
-	background-color: #2874A6;
+	color: $bleu-clair;
+	background-color: $bleu-fonce;
 	padding-top: 8px;
+
 }
 h1 {
 	text-transform: uppercase;
@@ -55,13 +67,14 @@ h2 {
 	letter-spacing: -2.3px;
 }
 .fa-graduation-cap , .fa-suitcase , .fa-pencil-alt , .fa-dot-circle, .fa-circle, .en_tete_prenom {
-	color:#2874A6;
+	color:$bleu-fonce;
 }
 .en_tete_sous_titre {
 	font-weight: bold;
 }
 .underline {
-	text-decoration: underline #2874A6;
+	margin-top: 2%;
+	border-bottom: 4px solid $bleu-fonce;
 }
 @media all and (max-width: 1000px) {
 	
@@ -71,17 +84,10 @@ h2 {
 		display: flex;
 		flex-direction: column-reverse;
 	}
-	p {
-		font-size: $seize-p;
-	}
-	h2 {
-		font-size: $seize-h2;
-	}
-	h3 {
-		font-size: $seize-h3;
-	}
+
 }
 @media all and (min-width: 1000px) {
+
 	.date_and_info {
 		display: flex;
 		justify-content: space-between;
