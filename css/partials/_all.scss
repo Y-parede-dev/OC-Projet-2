@@ -64,11 +64,21 @@ h2 {
 	text-decoration: underline #2874A6;
 }
 @media all and (max-width: 1000px) {
+	
 	body {
 		margin: 0%;
 		border: 1.78px rgba(0,0,0,0.5) solid;
 		display: flex;
 		flex-direction: column-reverse;
+	}
+	p {
+		font-size: $seize-p;
+	}
+	h2 {
+		font-size: $seize-h2;
+	}
+	h3 {
+		font-size: $seize-h3;
 	}
 }
 @media all and (min-width: 1000px) {

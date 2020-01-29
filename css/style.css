@@ -233,14 +233,10 @@
     font-size: 60px; } }
 @media all and (max-width: 1000px) {
   .titres_aside {
-    margin: 50px 0;
-    font-size: 2.2em; }
-
-  .contact > h3, .contact > p {
-    font-size: 23px;
-    font-weight: bold; }
+    margin: 50px 0; }
 
   .contact > h3 {
+    font-weight: bold;
     margin: 30px 0 0 10%; }
 
   .contact > p {
@@ -254,8 +250,7 @@
     border-radius: 50%; }
 
   .description > p {
-    margin: 0 10% 120px;
-    font-size: 1.2em; }
+    margin: 0 10% 120px; }
 
   .description_loisir > .logo {
     margin: 0 0 50px 0%; }
@@ -327,7 +322,16 @@ h2 {
     margin: 0%;
     border: 1.78px rgba(0, 0, 0, 0.5) solid;
     display: flex;
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+
+  p {
+    font-size: 1.8em; }
+
+  h2 {
+    font-size: 2.2em; }
+
+  h3 {
+    font-size: 2em; } }
 @media all and (min-width: 1000px) {
   .date_and_info {
     display: flex;
@@ -702,8 +706,7 @@ h2 {
 
   .titre_section {
     text-transform: uppercase;
-    margin: 0px 0 15px 0;
-    font-size: 2.2em; }
+    margin: 0px 0 15px 0; }
 
   .block {
     margin: 45px 0; }
@@ -717,10 +720,6 @@ h2 {
       margin: 0 0 20px;
       width: 90%;
       font-size: 18px; }
-    .formation p {
-      font-size: 1.2em; }
-    .formation h3 {
-      font-size: 1.5em; }
 
   .societe {
     margin: 0 0 10px;
@@ -740,25 +739,16 @@ h2 {
 
   .formation_last {
     margin: 0 5%; }
-    .formation_last p {
-      font-size: 1.2em; }
-    .formation_last h3 {
-      font-size: 1.5em; }
 
   .formation_experience {
     width: 80%;
     margin: 0 0 20px 4%; }
-    .formation_experience p {
-      font-size: 1.2em; }
-    .formation_experience h3 {
-      font-size: 1.5em; }
 
   .formation_experience_last {
     margin: 0 4%; }
 
   .container_recommandations {
-    margin: 35px 5% 20px 0;
-    font-size: 1.2em; }
+    margin: 35px 5% 20px 0; }
 
   .recommandation_info {
     margin: -5px 0 18px; }

@@ -423,7 +423,6 @@
 		.titre_section {
 			text-transform: uppercase;
 			margin: 0px 0 15px 0;
-			font-size: $seize-h2;
 			
 		}
 	.block {
@@ -433,6 +432,7 @@
 		.formation {
 			width: 80%;
 			margin: 0 0 0 5%;
+			
 			.container_form {
 				display: flex;
 				font-weight: bolder;
@@ -440,12 +440,7 @@
 				width: 90%;
 				font-size: 18px;
 			}
-			p { 
-				font-size: $seize-p;
-			}
-			h3 {
-				font-size: $seize-h3;
-			}
+			
 		}
 	
 			.societe {
@@ -473,35 +468,27 @@
 			
 		.formation_last {
 			margin: 0 5%;
-			p {
-				font-size: $seize-p;
-			}
-			h3 {
-				font-size: $seize-h3;
-			}
+			
 		}
 		.formation_experience {
 			width: 80%;
 			margin: 0 0 20px 4%;
-			p {
-				font-size: $seize-p
-			}
-			h3 {
-				font-size: $seize-h3 ;
-			}
+			
 		}
 		.formation_experience_last {
 			margin: 0 4%;
 		}
 	.container_recommandations {
 		margin: 35px 5% 20px 0;
-		font-size: $seize-p;
+		
 	}
 	.recommandation_info {
 		margin: -5px 0 18px;
+		
 	}
 		.info_bold {
 			font-weight: bold;
+			
 		}
 		.recommandation_info_mail {
 			margin: -5px 0 0;
