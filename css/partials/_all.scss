@@ -9,11 +9,11 @@ body {
 	width: 100%;
 	margin: 0;
 	display: flex;
-	font-size: 1.3em;
+	font-size: $size-general;
 	font-family: 'Courier Prime', monospace;
 }
 h2 {
-	font-size: 1.8em;
+	font-size: $size-h2;
 }
 aside {
 	background-color: $bleu-clair;
@@ -21,7 +21,7 @@ aside {
 		font-weight: bold;
 		
 		h3 {
-			font-size: 1em;
+			font-size: $size-p_h3;
 		}
 		.contact_img {
 			@include rotate(-90deg);
@@ -45,7 +45,6 @@ aside {
 	color: $bleu-clair;
 	background-color: $bleu-fonce;
 	padding-top: 8px;
-
 }
 h1 {
 	text-transform: uppercase;
@@ -60,7 +59,6 @@ h2 {
 .fas_cv {
 	margin: 0 1% 0 0;
 }
-
 .formation_date {
 	letter-spacing: -2.3px;
 }

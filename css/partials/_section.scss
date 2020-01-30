@@ -1,25 +1,30 @@
 .block header {
-	border-bottom: 3px solid #2874A6;
+	border-bottom: 3px solid $bleu-fonce;
 	margin: 0 0 70px;
-
+}
+.formation_date {
+	margin: 0 0 0 7%;
 }
 .container_recommandations {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
+
 	.recommandations_boss {
 		margin: 0 20% 0 0;
 	}
 	.recommandations_boss_last {
 		margin: 0 35% 0 0;
 	}
-}
-.formation_date {
-	margin: 0 0 0 7%;
-}
+	.recommandation_info, .recommandation_sous_titre {
+		margin: 8px 0;
+	}
+	.info_bold {
+		font-weight: bold;
+	}
 
+}
 
 @media all and (min-width:1870px) {  
     .right_side {	
@@ -29,39 +34,31 @@
 		.titre_section {
 			text-transform: uppercase;
 			margin:0px 0 10px 0;
-
 		}
-	
 		.block {
 			margin: 70px 0 80px;
-		}
+		
 			.formation {
 				display: flex;
-				
 				width: 100%;
-			
+
 				.container_form {
 					display: flex;
 					font-weight: bolder;
 					margin: 0px 3% 0 1%;
-					width: 25%;
-				
+					width: 22%;
 				}
-			}
-
 				.ecole {
 					margin-left: -5px;
 					width: 70%;
-				
+
 					.societe {
 						margin:0 0 10px ;
-
 						text-transform: uppercase;
 					}
 					.poste {
 						margin: 0;
 						text-transform: uppercase;
-
 						text-decoration: none;
 						font-weight: bolder;
 					}
@@ -73,28 +70,9 @@
 						margin: 8px 0 0px;
 					}
 				}
-
-	
-	.recommandation_sous_titre {
-	margin: 12px 0 ;
-	}	
-	.recommandation_info {
-		margin: 6px 0;
-	}
-		.info_bold {
-			font-weight: bold;
-
+			}
 		}
-		.recommandation_info_mail {
-			margin: -5px 0 0;
-		}
-
-	.visible_max_screen {
-		display: none;
-	}
 }
-
-
 @media screen and (min-width:1660px) and (max-width: 1870px) {  
 
     .right_side {	
@@ -107,7 +85,7 @@
 		}
 		.block {
 			margin: 80px 0 35px;
-		}
+
 			.formation {
 				display: flex;
 				
@@ -116,9 +94,8 @@
 					display: flex;
 					font-weight: bolder;
 					margin: 0px .5% 0 1%;
-					width: 28%;
+					width: 23%;
 				}
-			}
 				.ecole {
 					margin-left: -5px;
 					width: 70%;
@@ -139,24 +116,8 @@
 					.fonction_bis, .fontion_exp_bis {
 						margin: 8px 0 0px;
 					}
-
-	.recommandation_sous_titre {
-		margin: 12px 0 ;
-	}	
-	.recommandation_info {
-		margin: 6px 0;
-	}
-		.info_bold {
-			font-weight: bold;
-
-		}
-		.recommandation_info_mail {
-			margin: -5px 0 0;
-		}
-
-	.visible_max_screen {
-		display: none;
-	}
+				}
+			}
 }
 @media screen and (min-width:1450px) and (max-width: 1660px) {  
 
@@ -168,65 +129,44 @@
 			text-transform: uppercase;
 			margin:0px 0 10px 0;
 		}
-	
 		.block {
 			margin: 80px 0 35px;
-		}
+		
 			.formation {
 				display: flex;
-				
 				width: 100%;
 				.container_form {
 					display: flex;
 					font-weight: bolder;
 					margin: 0px .5% 0 1%;
-					width: 30%;
+					width: 28%;
 				}
-			}
-			
 				.ecole {
 					margin-left: -5px;
 					width: 60%;
 				}
 					.societe {
 						margin:0 0 10px ;
-
 						text-transform: uppercase;
 					}
 					.poste {
 						margin: 0;
 						text-transform: uppercase;
-
 						text-decoration: none;
 						font-weight: bolder;
 					}
 					.fonction {
 						margin: 8px 0 50px;
-
 					}
 					.fonction_bis, .fontion_exp_bis {
 						margin: 8px 0 0px;
 					}
-	.recommandation_sous_titre {
-		margin: 12px 0 ;
-	}	
-	.recommandation_info {
-		margin: 6px 0;
-	}
-		.info_bold {
-			font-weight: bold;
-
-		}
-		.recommandation_info_mail {
-			margin: -5px 0 0;
-		}
-
-	.visible_max_screen {
-		display: none;
-	}
+				}
+			}
 }
 @media screen and (min-width:1230px) and (max-width: 1450px) {  
-    .right_side {	
+   
+	.right_side {	
         margin: 0 65px 0 65px;
         width:100%;
 	}
@@ -234,22 +174,18 @@
 			text-transform: uppercase;
 			margin:0px 0 10px 0;
 		}
-	
 		.block {
 			margin: 80px 0 35px;
-		}
+		
 			.formation {
 				display: flex;
-				
 				width: 100%;
 				.container_form {
 					display: flex;
 					font-weight: bolder;
 					margin: 0px .5% 0 1%;
-					width: 41.5%;
+					width: 33%;
 				}
-			}
-			
 				.ecole {
 					margin-left: -5px;
 					width: 65%;
@@ -270,60 +206,41 @@
 					.fonction_bis, .fontion_exp_bis {
 						margin: 8px 0 0px;
 					}
+				}
+			}
 
 	.container_recommandations {
 
 		.recommandations_boss {
-			margin-right: 2%;
+			margin-right: $reco-margin_boss_M;
 		}	
 		.recommandations_boss_last {
-			margin: 0;
-		}
-		.recommandation_sous_titre {
-			margin: 12px 0 ;
+			margin: $reco-margin_boss_last_M;
 		}	
-		.recommandation_info {
-			margin: 6px 0;
-		}
-			.info_bold {
-				font-weight: bold;
-			}
-			.recommandation_info_mail {
-				margin: -5px 0 0;
-			}
-	}
-
-	.visible_max_screen {
-		display: none;
 	}
 }
 @media screen and (min-width:1000px) and (max-width: 1230px) {  
-    .right_side {	
+	
+	.right_side {	
         margin: 0 5%;
 		width:85%;
 	}
 		.titre_section {
 			text-transform: uppercase;
 			margin:0px 0 2% 0;
-		}
-		
+		}	
 		.block {
 			margin: 80px 0 35px;
-		}
+		
 			.formation {
 				display: flex;
-				
 				width: 100%;
 				.container_form {
 					display: flex;
-					
 					font-weight: bolder;
 					margin: 0px 1% 0 1%;
 					width: 40%;
 				}
-				
-			}
-				
 				.ecole {
 					margin-left: -5px;
 					width: 55%;
@@ -344,52 +261,36 @@
 					.fonction_bis, .fontion_exp_bis {
 						margin: 8px 0 0px;
 					}
+				}
+			}
+
 	.container_recommandations {
 		
 		.recommandations_boss {
-			margin-right: 2%;
+			margin-right: $reco-margin_boss_M;
 		}	
 		.recommandations_boss_last {
-			margin: 0;
+			margin: $reco-margin_boss_last_M;
 		}
-			.recommandation_sous_titre {
-				margin: 12px 0 ;
-			}	
-			.recommandation_info {
-				margin: 6px 0;
-			}
-				.info_bold {
-					font-weight: bold;
-				}
-				.recommandation_info_mail {
-					margin: -5px 0 0;
-				}
-			}
-	
-	.visible_max_screen {
-		display: none;
 	}
 }
 @media all and (max-width: 1000px) {
- 
-
-    .right_side {	
+	
+	.right_side {	
 		margin: 0 4%;
-		
 	}
 		.titre_section {
 			text-transform: uppercase;
-			margin: 0px 0 15px 0;
-			
+			margin: 0px 0 15px 0;	
 		}
 	.block {
 		margin: 45px 0;
-		
-	}
+
+		.formation_experience {
+			width: 80%;
+		}
 		.formation {
 			width: 80%;
-			
-			
 			.container_form {
 				display: flex;
 				font-weight: bolder;
@@ -398,57 +299,38 @@
 			}
 			.formation_date {
 				margin: 0 0 0 1.5%;
-
 			}
-		}
 			.societe {
 				margin: 0 0 10px ;
-				
 				text-transform: uppercase;
 			}
 			.poste {
 				margin: 0;
 				text-transform: uppercase;
-				
 				text-decoration: none;
 				font-weight: bolder;
 			}
 			.fonction {
 				margin: 10px 0 50px 0;
-				
-				
 			}
 			.fonction_bis {
-				margin: 10px 0 0;
-				
+				margin: 10px 0 0;	
 			}
 			.hide-sm {
 				display: none;
 			}
-			
-		.formation_experience {
-			width: 80%;
 		}
+	}	
+		
 	.container_recommandations {
 		
 		.recommandations_boss {
-			margin-right: 2%;
+			margin-right: $reco_margin_boss_M;
 			
 		}	
 		.recommandations_boss_last {
 			margin-right: 20%;
 		}
-			.recommandation_info {
-				margin: -5px 0 18px;
-				
-			}
-				.info_bold {
-					font-weight: bold;
-					
-				}
-				.recommandation_info_mail {
-					margin: -5px 0 0;
-				}
 	}
 	
 }

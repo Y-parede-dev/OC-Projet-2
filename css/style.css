@@ -61,10 +61,9 @@
   .en_tete_sous_titre {
     margin-bottom: 45px;
     font-size: 25px; } }
-.contact > h3 {
+.contact h3 {
   margin: 0px 0 0 55px; }
-
-.contact > p {
+.contact p {
   margin: 0 0 20px 55px; }
 
 .photo {
@@ -73,111 +72,91 @@
   justify-content: center;
   margin: 10% 0 0 0; }
 
-.description_loisir > .logo {
+.description_loisir .logo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 10%; }
-  .description_loisir > .logo .logo i {
+  .description_loisir .logo .logo i {
     font-size: 60px; }
 
 @media all and (min-width: 1870px) {
   aside {
     width: 40%; }
-
-  .titres_aside {
-    margin: 50px 0; }
-
-  .contact_img {
-    width: 280px;
-    height: 280px;
-    border: #2874A6 5px solid;
-    border-radius: 50%; }
-
-  .description > p {
-    margin: 0 55px 480px; }
-
-  .description_loisir > .logo {
-    font-size: .9em;
-    margin: 0 10% 4%; } }
+    aside .titres_aside {
+      margin: 50px 0; }
+    aside .contact_img {
+      width: 280px;
+      height: 280px;
+      border: #2874A6 5px solid;
+      border-radius: 50%; }
+    aside .description > p {
+      margin: 0 55px 480px; }
+    aside .description_loisir > .logo {
+      font-size: .9em;
+      margin: 0 10% 4%; }
+      aside .description_loisir > .logo .logo i {
+        font-size: .3em; } }
 @media screen and (min-width: 1660px) and (max-width: 1870px) {
   aside {
     width: 40%; }
-
-  .titres_aside {
-    margin: 50px 0; }
-
-  .contact_img {
-    width: 270px;
-    height: 270px;
-    border: #2874A6 5px solid;
-    border-radius: 50%; }
-
-  .description > p {
-    margin: 0 55px 480px; } }
+    aside .titres_aside {
+      margin: 50px 0; }
+    aside .contact_img {
+      width: 270px;
+      height: 270px;
+      border: #2874A6 5px solid;
+      border-radius: 50%; }
+    aside .description > p {
+      margin: 0 55px 480px; } }
 @media screen and (min-width: 1450px) and (max-width: 1660px) {
   aside {
     width: 45%; }
-
-  .titres_aside {
-    margin: 50px 0; }
-
-  .contact_img {
-    width: 235px;
-    height: 235px;
-    border: #2874A6 5px solid;
-    border-radius: 50%; }
-
-  .description > p {
-    margin: 0 55px 480px; }
-
-  .description_loisir {
-    margin: 0 0 50px; }
-
-  .description_loisir > .logo {
-    font-size: .9em; } }
+    aside .titres_aside {
+      margin: 50px 0; }
+    aside .contact_img {
+      width: 235px;
+      height: 235px;
+      border: #2874A6 5px solid;
+      border-radius: 50%; }
+    aside .description > p {
+      margin: 0 55px 480px; }
+    aside .description_loisir {
+      margin: 0 0 50px; }
+    aside .description_loisir > .logo {
+      font-size: .9em; } }
 @media screen and (min-width: 1230px) and (max-width: 1450px) {
   aside {
     width: 55%; }
-
-  .titres_aside {
-    margin: 50px 0; }
-
-  .contact_img {
-    width: 235px;
-    height: 235px;
-    border: #2874A6 5px solid;
-    border-radius: 50%; }
-
-  .description > p {
-    margin: 0 55px 480px; }
-
-  .description_loisir {
-    margin: 0 0 50px; }
-
-  .description_loisir > .logo {
-    font-size: .8em; } }
+    aside .titres_aside {
+      margin: 50px 0; }
+    aside .contact_img {
+      width: 235px;
+      height: 235px;
+      border: #2874A6 5px solid;
+      border-radius: 50%; }
+    aside .description > p {
+      margin: 0 55px 480px; }
+    aside .description_loisir {
+      margin: 0 0 50px; }
+    aside .description_loisir > .logo {
+      font-size: .8em; } }
 @media screen and (min-width: 1000px) and (max-width: 1230px) {
   aside {
     width: 55%; }
-
-  .titres_aside {
-    margin: 50px 0; }
-
-  .contact_img {
-    width: 235px;
-    height: 235px;
-    border: #2874A6 5px solid;
-    border-radius: 50%; }
-
-  .description > p {
-    margin: 0 55px 480px; }
-
-  .description_loisir {
-    margin: 0 0 50px; }
-
-  .description_loisir > .logo {
-    font-size: .6em; } }
+    aside .titres_aside {
+      margin: 50px 0; }
+    aside .contact_img {
+      width: 235px;
+      height: 235px;
+      border: #2874A6 5px solid;
+      border-radius: 50%; }
+    aside .description > p {
+      margin: 0 55px 480px; }
+    aside .description_loisir {
+      margin: 0 0 50px; }
+    aside .description_loisir > .logo {
+      font-size: .6em; } }
 @media all and (max-width: 1000px) {
   .titres_aside {
     margin: 50px 0; }
@@ -279,6 +258,9 @@ h2 {
   border-bottom: 3px solid #2874A6;
   margin: 0 0 70px; }
 
+.formation_date {
+  margin: 0 0 0 7%; }
+
 .container_recommandations {
   width: 100%;
   display: flex;
@@ -288,9 +270,10 @@ h2 {
     margin: 0 20% 0 0; }
   .container_recommandations .recommandations_boss_last {
     margin: 0 35% 0 0; }
-
-.formation_date {
-  margin: 0 0 0 7%; }
+  .container_recommandations .recommandation_info, .container_recommandations .recommandation_sous_titre {
+    margin: 8px 0; }
+  .container_recommandations .info_bold {
+    font-weight: bold; }
 
 @media all and (min-width: 1870px) {
   .right_side {
@@ -303,46 +286,29 @@ h2 {
 
   .block {
     margin: 70px 0 80px; }
-
-  .formation {
-    display: flex;
-    width: 100%; }
-    .formation .container_form {
+    .block .formation {
       display: flex;
-      font-weight: bolder;
-      margin: 0px 3% 0 1%;
-      width: 25%; }
-
-  .ecole {
-    margin-left: -5px;
-    width: 70%; }
-    .ecole .societe {
-      margin: 0 0 10px;
-      text-transform: uppercase; }
-    .ecole .poste {
-      margin: 0;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bolder; }
-    .ecole .fonction {
-      margin: 8px 0 50px; }
-    .ecole .fonction_bis, .ecole .fontion_exp_bis {
-      margin: 8px 0 0px; }
-
-  .recommandation_sous_titre {
-    margin: 12px 0; }
-
-  .recommandation_info {
-    margin: 6px 0; }
-
-  .info_bold {
-    font-weight: bold; }
-
-  .recommandation_info_mail {
-    margin: -5px 0 0; }
-
-  .visible_max_screen {
-    display: none; } }
+      width: 100%; }
+      .block .formation .container_form {
+        display: flex;
+        font-weight: bolder;
+        margin: 0px 3% 0 1%;
+        width: 22%; }
+      .block .formation .ecole {
+        margin-left: -5px;
+        width: 70%; }
+        .block .formation .ecole .societe {
+          margin: 0 0 10px;
+          text-transform: uppercase; }
+        .block .formation .ecole .poste {
+          margin: 0;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: bolder; }
+        .block .formation .ecole .fonction {
+          margin: 8px 0 50px; }
+        .block .formation .ecole .fonction_bis, .block .formation .ecole .fontion_exp_bis {
+          margin: 8px 0 0px; } }
 @media screen and (min-width: 1660px) and (max-width: 1870px) {
   .right_side {
     margin: 0 70px 0 80px;
@@ -354,50 +320,29 @@ h2 {
 
   .block {
     margin: 80px 0 35px; }
-
-  .formation {
-    display: flex;
-    width: 100%; }
-    .formation .container_form {
+    .block .formation {
       display: flex;
-      font-weight: bolder;
-      margin: 0px .5% 0 1%;
-      width: 28%; }
-
-  .ecole {
-    margin-left: -5px;
-    width: 70%; }
-
-  .societe {
-    margin: 0 0 10px;
-    text-transform: uppercase; }
-
-  .poste {
-    margin: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bolder; }
-
-  .fonction {
-    margin: 8px 0 50px; }
-
-  .fonction_bis, .fontion_exp_bis {
-    margin: 8px 0 0px; }
-
-  .recommandation_sous_titre {
-    margin: 12px 0; }
-
-  .recommandation_info {
-    margin: 6px 0; }
-
-  .info_bold {
-    font-weight: bold; }
-
-  .recommandation_info_mail {
-    margin: -5px 0 0; }
-
-  .visible_max_screen {
-    display: none; } }
+      width: 100%; }
+      .block .formation .container_form {
+        display: flex;
+        font-weight: bolder;
+        margin: 0px .5% 0 1%;
+        width: 23%; }
+      .block .formation .ecole {
+        margin-left: -5px;
+        width: 70%; }
+      .block .formation .societe {
+        margin: 0 0 10px;
+        text-transform: uppercase; }
+      .block .formation .poste {
+        margin: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bolder; }
+      .block .formation .fonction {
+        margin: 8px 0 50px; }
+      .block .formation .fonction_bis, .block .formation .fontion_exp_bis {
+        margin: 8px 0 0px; } }
 @media screen and (min-width: 1450px) and (max-width: 1660px) {
   .right_side {
     margin: 0 70px 0 80px;
@@ -409,50 +354,29 @@ h2 {
 
   .block {
     margin: 80px 0 35px; }
-
-  .formation {
-    display: flex;
-    width: 100%; }
-    .formation .container_form {
+    .block .formation {
       display: flex;
-      font-weight: bolder;
-      margin: 0px .5% 0 1%;
-      width: 30%; }
-
-  .ecole {
-    margin-left: -5px;
-    width: 60%; }
-
-  .societe {
-    margin: 0 0 10px;
-    text-transform: uppercase; }
-
-  .poste {
-    margin: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bolder; }
-
-  .fonction {
-    margin: 8px 0 50px; }
-
-  .fonction_bis, .fontion_exp_bis {
-    margin: 8px 0 0px; }
-
-  .recommandation_sous_titre {
-    margin: 12px 0; }
-
-  .recommandation_info {
-    margin: 6px 0; }
-
-  .info_bold {
-    font-weight: bold; }
-
-  .recommandation_info_mail {
-    margin: -5px 0 0; }
-
-  .visible_max_screen {
-    display: none; } }
+      width: 100%; }
+      .block .formation .container_form {
+        display: flex;
+        font-weight: bolder;
+        margin: 0px .5% 0 1%;
+        width: 28%; }
+      .block .formation .ecole {
+        margin-left: -5px;
+        width: 60%; }
+      .block .formation .societe {
+        margin: 0 0 10px;
+        text-transform: uppercase; }
+      .block .formation .poste {
+        margin: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bolder; }
+      .block .formation .fonction {
+        margin: 8px 0 50px; }
+      .block .formation .fonction_bis, .block .formation .fontion_exp_bis {
+        margin: 8px 0 0px; } }
 @media screen and (min-width: 1230px) and (max-width: 1450px) {
   .right_side {
     margin: 0 65px 0 65px;
@@ -464,51 +388,34 @@ h2 {
 
   .block {
     margin: 80px 0 35px; }
-
-  .formation {
-    display: flex;
-    width: 100%; }
-    .formation .container_form {
+    .block .formation {
       display: flex;
-      font-weight: bolder;
-      margin: 0px .5% 0 1%;
-      width: 41.5%; }
-
-  .ecole {
-    margin-left: -5px;
-    width: 65%; }
-
-  .societe {
-    margin: 0 0 10px;
-    text-transform: uppercase; }
-
-  .poste {
-    margin: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bolder; }
-
-  .fonction {
-    margin: 8px 0 50px; }
-
-  .fonction_bis, .fontion_exp_bis {
-    margin: 8px 0 0px; }
+      width: 100%; }
+      .block .formation .container_form {
+        display: flex;
+        font-weight: bolder;
+        margin: 0px .5% 0 1%;
+        width: 33%; }
+      .block .formation .ecole {
+        margin-left: -5px;
+        width: 65%; }
+      .block .formation .societe {
+        margin: 0 0 10px;
+        text-transform: uppercase; }
+      .block .formation .poste {
+        margin: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bolder; }
+      .block .formation .fonction {
+        margin: 8px 0 50px; }
+      .block .formation .fonction_bis, .block .formation .fontion_exp_bis {
+        margin: 8px 0 0px; }
 
   .container_recommandations .recommandations_boss {
     margin-right: 2%; }
   .container_recommandations .recommandations_boss_last {
-    margin: 0; }
-  .container_recommandations .recommandation_sous_titre {
-    margin: 12px 0; }
-  .container_recommandations .recommandation_info {
-    margin: 6px 0; }
-  .container_recommandations .info_bold {
-    font-weight: bold; }
-  .container_recommandations .recommandation_info_mail {
-    margin: -5px 0 0; }
-
-  .visible_max_screen {
-    display: none; } }
+    margin: 0; } }
 @media screen and (min-width: 1000px) and (max-width: 1230px) {
   .right_side {
     margin: 0 5%;
@@ -520,51 +427,34 @@ h2 {
 
   .block {
     margin: 80px 0 35px; }
-
-  .formation {
-    display: flex;
-    width: 100%; }
-    .formation .container_form {
+    .block .formation {
       display: flex;
-      font-weight: bolder;
-      margin: 0px 1% 0 1%;
-      width: 40%; }
-
-  .ecole {
-    margin-left: -5px;
-    width: 55%; }
-
-  .societe {
-    margin: 0 0 10px;
-    text-transform: uppercase; }
-
-  .poste {
-    margin: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bolder; }
-
-  .fonction {
-    margin: 8px 0 50px; }
-
-  .fonction_bis, .fontion_exp_bis {
-    margin: 8px 0 0px; }
+      width: 100%; }
+      .block .formation .container_form {
+        display: flex;
+        font-weight: bolder;
+        margin: 0px 1% 0 1%;
+        width: 40%; }
+      .block .formation .ecole {
+        margin-left: -5px;
+        width: 55%; }
+      .block .formation .societe {
+        margin: 0 0 10px;
+        text-transform: uppercase; }
+      .block .formation .poste {
+        margin: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bolder; }
+      .block .formation .fonction {
+        margin: 8px 0 50px; }
+      .block .formation .fonction_bis, .block .formation .fontion_exp_bis {
+        margin: 8px 0 0px; }
 
   .container_recommandations .recommandations_boss {
     margin-right: 2%; }
   .container_recommandations .recommandations_boss_last {
-    margin: 0; }
-  .container_recommandations .recommandation_sous_titre {
-    margin: 12px 0; }
-  .container_recommandations .recommandation_info {
-    margin: 6px 0; }
-  .container_recommandations .info_bold {
-    font-weight: bold; }
-  .container_recommandations .recommandation_info_mail {
-    margin: -5px 0 0; }
-
-  .visible_max_screen {
-    display: none; } }
+    margin: 0; } }
 @media all and (max-width: 1000px) {
   .right_side {
     margin: 0 4%; }
@@ -575,48 +465,35 @@ h2 {
 
   .block {
     margin: 45px 0; }
-
-  .formation {
-    width: 80%; }
-    .formation .container_form {
-      display: flex;
-      font-weight: bolder;
-      margin: 0 0 20px;
-      width: 90%; }
-    .formation .formation_date {
-      margin: 0 0 0 1.5%; }
-
-  .societe {
-    margin: 0 0 10px;
-    text-transform: uppercase; }
-
-  .poste {
-    margin: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bolder; }
-
-  .fonction {
-    margin: 10px 0 50px 0; }
-
-  .fonction_bis {
-    margin: 10px 0 0; }
-
-  .hide-sm {
-    display: none; }
-
-  .formation_experience {
-    width: 80%; }
+    .block .formation_experience {
+      width: 80%; }
+    .block .formation {
+      width: 80%; }
+      .block .formation .container_form {
+        display: flex;
+        font-weight: bolder;
+        margin: 0 0 20px;
+        width: 90%; }
+      .block .formation .formation_date {
+        margin: 0 0 0 1.5%; }
+      .block .formation .societe {
+        margin: 0 0 10px;
+        text-transform: uppercase; }
+      .block .formation .poste {
+        margin: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bolder; }
+      .block .formation .fonction {
+        margin: 10px 0 50px 0; }
+      .block .formation .fonction_bis {
+        margin: 10px 0 0; }
+      .block .formation .hide-sm {
+        display: none; }
 
   .container_recommandations .recommandations_boss {
     margin-right: 2%; }
   .container_recommandations .recommandations_boss_last {
-    margin-right: 20%; }
-  .container_recommandations .recommandation_info {
-    margin: -5px 0 18px; }
-  .container_recommandations .info_bold {
-    font-weight: bold; }
-  .container_recommandations .recommandation_info_mail {
-    margin: -5px 0 0; } }
+    margin-right: 20%; } }
 
 /*# sourceMappingURL=style.css.map */
