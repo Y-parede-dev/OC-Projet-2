@@ -197,12 +197,6 @@ aside {
     font-weight: bold; }
     aside .contact h3 {
       font-size: 1em; }
-    aside .contact .contact_img {
-      -webkit-transform: rotate(-90deg);
-      -moz-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      -o-transform: rotate(-90deg);
-      transform: rotate(-90deg); }
     aside .contact .contact_telephone {
       letter-spacing: -3.2px; }
     aside .contact a {

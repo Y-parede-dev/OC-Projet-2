@@ -1,10 +1,3 @@
-@mixin rotate ($rotate){
-	-webkit-transform: rotate($rotate);
-	-moz-transform: rotate($rotate);
-	-ms-transform: rotate($rotate);
-	-o-transform: rotate($rotate);
-	transform: rotate($rotate);	
-}
 body {
 	width: 100%;
 	margin: 0;
@@ -23,9 +16,6 @@ aside {
 		h3 {
 			font-size: $size-p_h3;
 		}
-		.contact_img {
-			@include rotate(-90deg);
-		}
 		.contact_telephone {
 			letter-spacing: -3.2px;
 		}
@@ -38,7 +28,6 @@ aside {
 		}
 	}
 }
-
 .titres_aside{
 	text-transform: uppercase;
 	text-align: center;
@@ -80,7 +69,6 @@ h2 {
 		display: flex;
 		flex-direction: column-reverse;
 	}
-
 }
 @media all and (min-width: 1000px) {
 
