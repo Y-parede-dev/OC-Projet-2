@@ -206,20 +206,15 @@ aside {
         color: white; }
 
 .titres_aside {
-  text-transform: uppercase;
   text-align: center;
   color: #AED6F1;
   background-color: #2874A6;
   padding-top: 8px; }
 
 h1 {
-  text-transform: uppercase;
   margin-bottom: -4%; }
 
-h2 {
-  text-transform: uppercase; }
-
-.societe, .poste {
+h1, h2, .societe, .poste, .titres_aside {
   text-transform: uppercase; }
 
 .fas_cv {
@@ -243,7 +238,7 @@ h2 {
     margin: 0%;
     border: 1.78px rgba(0, 0, 0, 0.5) solid;
     display: flex;
-    flex-direction: column-reverse; } }
+    flex-direction: column; } }
 @media all and (min-width: 1000px) {
   .date_and_info {
     display: flex;
@@ -261,9 +256,8 @@ h2 {
   flex-direction: row;
   justify-content: space-between; }
   .container_recommandations .recommandations_boss {
-    margin: 0 20% 0 0; }
-  .container_recommandations .recommandations_boss_last {
-    margin: 0 35% 0 0; }
+    margin: 0;
+    width: 100%; }
   .container_recommandations .recommandation_info, .container_recommandations .recommandation_sous_titre {
     margin: 8px 0; }
   .container_recommandations .info_bold {
@@ -412,7 +406,7 @@ h2 {
     margin: 0; } }
 @media screen and (min-width: 1000px) and (max-width: 1230px) {
   .right_side {
-    margin: 0 5%;
+    margin: 0 2.5%;
     width: 85%; }
 
   .titre_section {
@@ -446,6 +440,7 @@ h2 {
         margin: 8px 0 0px; }
 
   .container_recommandations .recommandations_boss {
+    font-size: 0.86em;
     margin-right: 2%; }
   .container_recommandations .recommandations_boss_last {
     margin: 0; } }
@@ -486,8 +481,6 @@ h2 {
         display: none; }
 
   .container_recommandations .recommandations_boss {
-    margin-right: 2%; }
-  .container_recommandations .recommandations_boss_last {
-    margin-right: 20%; } }
+    margin-right: 2%; } }
 
 /*# sourceMappingURL=style.css.map */

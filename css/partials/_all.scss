@@ -29,30 +29,26 @@ aside {
 	}
 }
 .titres_aside{
-	text-transform: uppercase;
 	text-align: center;
 	color: $bleu-clair;
 	background-color: $bleu-fonce;
 	padding-top: 8px;
 }
 h1 {
-	text-transform: uppercase;
 	margin-bottom: -4%;
 }
-h2 {
+h1, h2, .societe, .poste, .titres_aside {
 	text-transform: uppercase;
 }
-.societe , .poste {
-	text-transform: uppercase;
-}
+
 .fas_cv {
 	margin: 0 1% 0 0;
 }
 .formation_date {
 	letter-spacing: -2.3px;
 }
-.fa-graduation-cap , .fa-suitcase , .fa-pencil-alt , .fa-dot-circle, .fa-circle, .en_tete_prenom {
-	color:$bleu-fonce;
+.fa-graduation-cap, .fa-suitcase, .fa-pencil-alt, .fa-dot-circle, .fa-circle, .en_tete_prenom {
+	color: $bleu-fonce;
 }
 .en_tete_sous_titre {
 	font-weight: bold;
@@ -67,11 +63,11 @@ h2 {
 		margin: 0%;
 		border: 1.78px rgba(0,0,0,0.5) solid;
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 }
 @media all and (min-width: 1000px) {
-
+	
 	.date_and_info {
 		display: flex;
 		justify-content: space-between;

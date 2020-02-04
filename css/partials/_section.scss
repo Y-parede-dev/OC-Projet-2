@@ -12,28 +12,26 @@
 	justify-content: space-between;
 
 	.recommandations_boss {
-		margin: 0 20% 0 0;
+		margin: 0 ;
+		width: 100%;
 	}
-	.recommandations_boss_last {
-		margin: 0 35% 0 0;
-	}
+	
 	.recommandation_info, .recommandation_sous_titre {
 		margin: 8px 0;
 	}
 	.info_bold {
 		font-weight: bold;
 	}
-
 }
 
-@media all and (min-width:1870px) {  
+@media all and (min-width: 1870px) {  
     .right_side {	
         margin: 0 80px 0 100px;
-		width:100%;
+		width: 100%;
 	}
 		.titre_section {
 			text-transform: uppercase;
-			margin:0px 0 10px 0;
+			margin: 0px 0 10px 0;
 		}
 		.block {
 			margin: 70px 0 80px;
@@ -53,7 +51,7 @@
 					width: 70%;
 
 					.societe {
-						margin:0 0 10px ;
+						margin: 0 0 10px;
 						text-transform: uppercase;
 					}
 					.poste {
@@ -222,7 +220,7 @@
 @media screen and (min-width:1000px) and (max-width: 1230px) {  
 	
 	.right_side {	
-        margin: 0 5%;
+        margin: 0 2.5%;
 		width:85%;
 	}
 		.titre_section {
@@ -267,6 +265,7 @@
 	.container_recommandations {
 		
 		.recommandations_boss {
+			font-size: 0.86em;
 			margin-right: $reco-margin_boss_M;
 		}	
 		.recommandations_boss_last {
@@ -327,9 +326,6 @@
 		.recommandations_boss {
 			margin-right: $reco_margin_boss_M;
 		}	
-		.recommandations_boss_last {
-			margin-right: 20%;
-		}
 	}
 	
 }
