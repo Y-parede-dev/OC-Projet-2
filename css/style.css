@@ -238,7 +238,8 @@ h1, h2, .societe, .poste, .titres_aside {
     margin: 0%;
     border: 1.78px rgba(0, 0, 0, 0.5) solid;
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    font-size: 1.6em; } }
 @media all and (min-width: 1000px) {
   .date_and_info {
     display: flex;
@@ -315,7 +316,7 @@ h1, h2, .societe, .poste, .titres_aside {
         display: flex;
         font-weight: bolder;
         margin: 0px .5% 0 1%;
-        width: 23%; }
+        width: 25%; }
       .block .formation .ecole {
         margin-left: -5px;
         width: 70%; }
@@ -349,7 +350,7 @@ h1, h2, .societe, .poste, .titres_aside {
         display: flex;
         font-weight: bolder;
         margin: 0px .5% 0 1%;
-        width: 28%; }
+        width: 32%; }
       .block .formation .ecole {
         margin-left: -5px;
         width: 60%; }
@@ -382,8 +383,8 @@ h1, h2, .societe, .poste, .titres_aside {
       .block .formation .container_form {
         display: flex;
         font-weight: bolder;
-        margin: 0px .5% 0 1%;
-        width: 33%; }
+        margin: 0px 2.5% 0 1%;
+        width: 40%; }
       .block .formation .ecole {
         margin-left: -5px;
         width: 65%; }
@@ -421,8 +422,8 @@ h1, h2, .societe, .poste, .titres_aside {
       .block .formation .container_form {
         display: flex;
         font-weight: bolder;
-        margin: 0px 1% 0 1%;
-        width: 40%; }
+        margin: 0px -12% 0 1%;
+        width: 67%; }
       .block .formation .ecole {
         margin-left: -5px;
         width: 55%; }

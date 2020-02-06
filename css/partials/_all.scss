@@ -64,10 +64,11 @@ h1, h2, .societe, .poste, .titres_aside {
 		border: 1.78px rgba(0,0,0,0.5) solid;
 		display: flex;
 		flex-direction: column;
+		font-size: $size-xs;
 	}
 }
 @media all and (min-width: 1000px) {
-	
+
 	.date_and_info {
 		display: flex;
 		justify-content: space-between;
