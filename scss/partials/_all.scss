@@ -1,0 +1,48 @@
+
+body {
+	margin: 0;
+	display: flex;
+	font-size: $size-general;
+	font-family: 'Courier Prime', monospace;
+}
+h2 {
+	font-size: $size-h2;
+}
+h1, h2, .societe, .poste, .titres_aside {
+	text-transform: uppercase;
+}
+body, .right_side .container_recommandations, .recommandations_boss {
+	width: 100%;
+}
+.fas_cv {
+	margin: 0 1% 0 0;
+}
+.formation_date {
+	letter-spacing: -2.3px;
+}
+.fa-graduation-cap, .fa-suitcase, .fa-pencil-alt, .fa-dot-circle, .fa-circle, .en_tete_prenom {
+	color: $color-primary;
+}
+.en_tete_sous_titre, .contact {
+	font-weight: bold;
+}
+.underline {
+	margin-top: 2%;
+	border-bottom: 4px solid $color-primary;
+}
+@media all and (max-width: 1000px) {
+	
+	body {
+		margin: 0%;
+		border: 1.78px rgba(0,0,0,0.5) solid;
+		flex-direction: column;
+		font-size: $size-xs;
+	}
+}
+@media all and (min-width: 1000px) {
+
+	.date_and_info {
+		display: flex;
+		justify-content: space-between;
+	}
+}

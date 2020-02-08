@@ -1,0 +1,31 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "packageForConfig",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch ../scss -o ../css",
+    "prefix": "postcss ../css/style.css --use autoprefixer -d ../css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-parede-dev/cv-projet-2-v2.0.git"
+  },
+  "author": "Parédé Yoan",
+  "license": "ISC",
+  "browerslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/Y-parede-dev/cv-projet-2-v2.0/issues"
+  },
+  "homepage": "https://github.com/Y-parede-dev/cv-projet-2-v2.0#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^7.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "grunt": "^1.0.4"
+  }
+}
