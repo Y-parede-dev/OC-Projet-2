@@ -9,3 +9,10 @@ $color-secondary: #AED6F1;
 
 $reco-margin_boss_M: 2%;
 $reco-margin_boss_last_M: 0;
+
+@mixin flex {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    
+}

@@ -1,7 +1,6 @@
-
 body {
 	margin: 0;
-	display: flex;
+	@include flex;
 	font-size: $size-general;
 	font-family: 'Courier Prime', monospace;
 }
@@ -35,14 +34,19 @@ body, .right_side .container_recommandations, .recommandations_boss {
 	body {
 		margin: 0%;
 		border: 1.78px rgba(0,0,0,0.5) solid;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		font-size: $size-xs;
 	}
 }
 @media all and (min-width: 1000px) {
 
 	.date_and_info {
-		display: flex;
-		justify-content: space-between;
+		@include flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 }

@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .block header {
 	border-bottom: 3px solid $color-primary;
 	margin: 0 0 70px;
@@ -6,9 +8,16 @@
 	margin: 0 0 0 7%;
 }
 .container_recommandations {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	
 	.recommandations_boss {
 		margin: 0 ;	
@@ -30,10 +39,11 @@
 .block {
 	margin: 70px 0 80px 5%;
 	.formation {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 		width: 100%;
 		.ecole {
-			margin-left: -5px;
 			width: 70%;
 			.societe {
 				margin: 0 0 10px;
@@ -41,6 +51,7 @@
 			.poste {
 				margin: 0;
 				text-decoration: none;
+
 				font-weight: bolder;
 			}
 			.fonction {
@@ -52,6 +63,11 @@
 		}
 	}
 	.container_form {
+		
+		display: -webkit-box;
+		
+		display: -ms-flexbox;
+		
 		display: flex;
 		font-weight: bolder;
 		margin: 0px 3% 0 0;
@@ -133,8 +149,8 @@
 	.block {
 		margin: 80px 0 35px;
 		.container_form {
-			margin: 0px -25% 0 1%;
-			width: 67%;
+			margin: 0 0 0 1%;
+			width: 53%;
 		}
 		.ecole {
 			width: 55%;
@@ -163,11 +179,16 @@
 			width: 80%;
 		}
 		.formation, .container_recomandations {
-			flex-direction: column;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
 		}
 		.formation {
 			width: 80%;
 			.container_form {
+				display: -webkit-box;
+				display: -ms-flexbox;
 				display: flex;
 				margin: 0 0 20px;
 				width: 90%;

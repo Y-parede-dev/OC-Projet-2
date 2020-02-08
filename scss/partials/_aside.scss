@@ -26,8 +26,13 @@
     
 }
 .photo, .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 .titres_aside{
 	text-align: center;
@@ -36,7 +41,9 @@
 	padding-top: 8px;
 }
 .photo {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 10% 0 0 0;
 }
 .description p {
@@ -45,7 +52,9 @@
 .description_loisir {
     
     .logo{
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0 10%;
 
         .logo i {
