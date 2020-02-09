@@ -37,7 +37,7 @@
 	text-transform: uppercase;
 }
 .block {
-	margin: 70px 0 80px 5%;
+	margin: 70px 0 80px;
 	.formation {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -209,6 +209,7 @@
 	}
 	.container_recommandations {
 		font-size: .742em;
+		display: block;
 		.recommandations_boss {
 			margin-right: $reco_margin_boss_M;
 		}
