@@ -223,7 +223,7 @@ body, .right_side .container_recommandations, .recommandations_boss {
     margin: -5% 0 0 0; }
 
   .description > p {
-    margin: 0 10% 120px; }
+    margin: 0 6% 120px; }
 
   .description_loisir > .logo {
     font-size: .8em;
@@ -389,11 +389,11 @@ body, .right_side .container_recommandations, .recommandations_boss {
         display: none; }
 
   .container_recommandations {
-    font-size: .742em;
+    font-size: .52em;
     display: block; }
     .container_recommandations .recommandations_boss {
       margin-right: 2%; }
     .container_recommandations .recommandations_boss_last {
-      margin-top: 2%; } }
+      margin-top: 6%; } }
 
 /*# sourceMappingURL=style.css.map */
