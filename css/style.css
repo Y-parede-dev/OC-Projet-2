@@ -144,6 +144,7 @@ body, .right_side .container_recommandations, .recommandations_boss {
   margin: 10% 0 0 0; }
 
 .contact_img {
+  transform: rotate(90deg);
   border: #2874A6 5px solid;
   -webkit-border: #2874A6 5px solid;
   border-radius: 50%;
@@ -254,11 +255,7 @@ body, .right_side .container_recommandations, .recommandations_boss {
     font-weight: bold; }
 
 .titre_section {
-  text-transform: uppercase;
   margin: 0px 0 10px 0; }
-
-.titre_section, .societe, .poste {
-  text-transform: uppercase; }
 
 .block {
   margin: 70px 0 80px; }
